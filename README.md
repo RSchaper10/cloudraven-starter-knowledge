@@ -5,10 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/cloudraven-logo-black-01.svg" alt="CloudRaven wordmark" width="320" />
-</p>
-
-<p align="center">
   <img src="assets/cloudraven-rocket.png" alt="CloudRaven rocket" width="520" />
 </p>
 
