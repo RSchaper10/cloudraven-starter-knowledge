@@ -1,0 +1,989 @@
+{
+  "generated_at": "2026-04-16T01:07:44.654263+00:00",
+  "targets": [
+    {
+      "target_id": "aws-amplify-nextjs",
+      "name": "AWS Amplify Gen 2 for Next.js",
+      "collected_pages": 12,
+      "pages": [
+        {
+          "url": "https://docs.amplify.aws/nextjs/build-a-backend/auth/set-up-auth/",
+          "title": "Set up Amplify Auth - AWS Amplify Gen 2 Documentation",
+          "slug": "build-a-backend-auth-set-up-auth-7768614931",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:17.267468+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/build-a-backend-auth-set-up-auth-7768614931.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/build-a-backend-auth-set-up-auth-7768614931.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/build-a-backend-auth-set-up-auth-7768614931.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/build-a-backend/data/set-up-data/",
+          "title": "Set up Amplify Data - AWS Amplify Gen 2 Documentation",
+          "slug": "build-a-backend-data-set-up-data-70a714042a",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:16.625085+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/build-a-backend-data-set-up-data-70a714042a.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/build-a-backend-data-set-up-data-70a714042a.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/build-a-backend-data-set-up-data-70a714042a.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/deploy-and-host/fullstack-branching/branch-deployments/",
+          "title": "Fullstack branch deployments - AWS Amplify Gen 2 Documentation",
+          "slug": "deploy-and-host-fullstack-branching-branch-deployments-ab19273196",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:19.465967+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/deploy-and-host-fullstack-branching-branch-deployments-ab19273196.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/deploy-and-host-fullstack-branching-branch-deployments-ab19273196.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/deploy-and-host-fullstack-branching-branch-deployments-ab19273196.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/deploy-and-host/fullstack-branching/custom-pipelines/",
+          "title": "Custom pipelines - AWS Amplify Gen 2 Documentation",
+          "slug": "deploy-and-host-fullstack-branching-custom-pipelines-1c241f3982",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:20.630653+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/deploy-and-host-fullstack-branching-custom-pipelines-1c241f3982.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/deploy-and-host-fullstack-branching-custom-pipelines-1c241f3982.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/deploy-and-host-fullstack-branching-custom-pipelines-1c241f3982.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/deploy-and-host/sandbox-environments/setup/",
+          "title": "Use cloud sandbox in dev environment - Next.js - AWS Amplify Gen 2 Documentation",
+          "slug": "deploy-and-host-sandbox-environments-setup-7bf3bf8e94",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:18.917100+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/deploy-and-host-sandbox-environments-setup-7bf3bf8e94.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/deploy-and-host-sandbox-environments-setup-7bf3bf8e94.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/deploy-and-host-sandbox-environments-setup-7bf3bf8e94.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/",
+          "title": "Amplify Docs - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-b3a36d04a4",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:14.512113+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-b3a36d04a4.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-b3a36d04a4.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-b3a36d04a4.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/build-a-backend/add-aws-services/",
+          "title": "Add any AWS service - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-build-a-backend-add-aws-services-68f8c2a554",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:20.039114+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-build-a-backend-add-aws-services-68f8c2a554.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-build-a-backend-add-aws-services-68f8c2a554.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-build-a-backend-add-aws-services-68f8c2a554.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/build-ui/",
+          "title": "Build UI - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-build-ui-988cf8f7ca",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:17.837428+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-build-ui-988cf8f7ca.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-build-ui-988cf8f7ca.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-build-ui-988cf8f7ca.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/deploy-and-host/hosting/",
+          "title": "Frontend hosting - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-deploy-and-host-hosting-9a0061c66a",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:18.347534+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-deploy-and-host-hosting-9a0061c66a.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-deploy-and-host-hosting-9a0061c66a.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-deploy-and-host-hosting-9a0061c66a.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/how-amplify-works/",
+          "title": "How Amplify works - Next.js - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-how-amplify-works-3e16c3d158",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:15.039230+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-how-amplify-works-3e16c3d158.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-how-amplify-works-3e16c3d158.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-how-amplify-works-3e16c3d158.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/how-amplify-works/concepts/",
+          "title": "Concepts - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-how-amplify-works-concepts-ca1ff85ada",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:16.032065+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-how-amplify-works-concepts-ca1ff85ada.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-how-amplify-works-concepts-ca1ff85ada.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-how-amplify-works-concepts-ca1ff85ada.md"
+        },
+        {
+          "url": "https://docs.amplify.aws/nextjs/start/quickstart/",
+          "title": "Quickstart - AWS Amplify Gen 2 Documentation",
+          "slug": "nextjs-start-quickstart-1663fcdb8d",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:15.576947+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-start-quickstart-1663fcdb8d.html",
+          "extracted_path": "knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-start-quickstart-1663fcdb8d.md",
+          "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/nextjs-start-quickstart-1663fcdb8d.md"
+        }
+      ]
+    },
+    {
+      "target_id": "openai-api",
+      "name": "OpenAI API",
+      "collected_pages": 10,
+      "pages": [
+        {
+          "url": "https://developers.openai.com/api/docs/libraries",
+          "title": "Libraries | OpenAI API",
+          "slug": "api-docs-libraries-b811850bbe",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:24.282751+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/api-docs-libraries-b811850bbe.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/api-docs-libraries-b811850bbe.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/api-docs-libraries-b811850bbe.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/models",
+          "title": "Models | OpenAI API",
+          "slug": "api-docs-models-1d7e8a5ad8",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:22.172745+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/api-docs-models-1d7e8a5ad8.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/api-docs-models-1d7e8a5ad8.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/api-docs-models-1d7e8a5ad8.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "title": "Pricing | OpenAI API",
+          "slug": "api-docs-pricing-7a2032ac10",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:23.623149+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/api-docs-pricing-7a2032ac10.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/api-docs-pricing-7a2032ac10.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/api-docs-pricing-7a2032ac10.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/quickstart",
+          "title": "Developer quickstart | OpenAI API",
+          "slug": "api-docs-quickstart-585848d57d",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:21.515764+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/api-docs-quickstart-585848d57d.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/api-docs-quickstart-585848d57d.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/api-docs-quickstart-585848d57d.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/code-generation",
+          "title": "Code generation | OpenAI API",
+          "slug": "docs-guides-code-generation-330f76216c",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:27.107324+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/docs-guides-code-generation-330f76216c.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/docs-guides-code-generation-330f76216c.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/docs-guides-code-generation-330f76216c.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/images-vision",
+          "title": "Images and vision | OpenAI API",
+          "slug": "docs-guides-images-vision-0342f88025",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:28.182233+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/docs-guides-images-vision-0342f88025.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/docs-guides-images-vision-0342f88025.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/docs-guides-images-vision-0342f88025.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/latest-model",
+          "title": "Using GPT-5.4 | OpenAI API",
+          "slug": "docs-guides-latest-model-817a3fd016",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:24.991840+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/docs-guides-latest-model-817a3fd016.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/docs-guides-latest-model-817a3fd016.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/docs-guides-latest-model-817a3fd016.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/prompt-guidance",
+          "title": "Prompt guidance for GPT-5.4 | OpenAI API",
+          "slug": "docs-guides-prompt-guidance-b46127f462",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:25.815551+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/docs-guides-prompt-guidance-b46127f462.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/docs-guides-prompt-guidance-b46127f462.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/docs-guides-prompt-guidance-b46127f462.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/text",
+          "title": "Text generation | OpenAI API",
+          "slug": "docs-guides-text-2bf0a925bd",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:26.427711+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/docs-guides-text-2bf0a925bd.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/docs-guides-text-2bf0a925bd.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/docs-guides-text-2bf0a925bd.md"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/tools",
+          "title": "Using tools | OpenAI API",
+          "slug": "docs-guides-tools-b14e1d2f21",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:22.886715+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/openai-api/docs-guides-tools-b14e1d2f21.html",
+          "extracted_path": "knowledgebase/store/extracted/openai-api/docs-guides-tools-b14e1d2f21.md",
+          "enriched_path": "knowledgebase/store/enriched/openai-api/docs-guides-tools-b14e1d2f21.md"
+        }
+      ]
+    },
+    {
+      "target_id": "elevenlabs-api",
+      "name": "ElevenLabs API",
+      "collected_pages": 8,
+      "pages": [
+        {
+          "url": "https://elevenlabs.io/docs/api-reference/authentication",
+          "title": "API Authentication | ElevenLabs Documentation",
+          "slug": "docs-api-reference-authentication-9f65151565",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:32.553926+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/docs-api-reference-authentication-9f65151565.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/docs-api-reference-authentication-9f65151565.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/docs-api-reference-authentication-9f65151565.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/api-reference/introduction",
+          "title": "Introduction | ElevenLabs Documentation",
+          "slug": "docs-api-reference-introduction-c6790d59c8",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:30.344078+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/docs-api-reference-introduction-c6790d59c8.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/docs-api-reference-introduction-c6790d59c8.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/docs-api-reference-introduction-c6790d59c8.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/eleven-api/quickstart",
+          "title": "ElevenAPI quickstart | ElevenLabs Documentation",
+          "slug": "docs-eleven-api-quickstart-dc2a0131e0",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:35.784495+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/docs-eleven-api-quickstart-dc2a0131e0.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/docs-eleven-api-quickstart-dc2a0131e0.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/docs-eleven-api-quickstart-dc2a0131e0.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/overview/intro",
+          "title": "Documentation | ElevenLabs Documentation",
+          "slug": "docs-overview-intro-1eb9899b6b",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:35.071612+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/docs-overview-intro-1eb9899b6b.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/docs-overview-intro-1eb9899b6b.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/docs-overview-intro-1eb9899b6b.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/quickstart",
+          "title": "ElevenAPI quickstart | ElevenLabs Documentation",
+          "slug": "docs-quickstart-eaab79e735",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:29.554380+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/docs-quickstart-eaab79e735.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/docs-quickstart-eaab79e735.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/docs-quickstart-eaab79e735.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/eleven-api/guides/cookbooks",
+          "title": "ElevenAPI quickstart | ElevenLabs Documentation",
+          "slug": "eleven-api-guides-cookbooks-1c6f0e6fc2",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:31.763296+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/eleven-api-guides-cookbooks-1c6f0e6fc2.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/eleven-api-guides-cookbooks-1c6f0e6fc2.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/eleven-api-guides-cookbooks-1c6f0e6fc2.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/text-to-speech/streaming",
+          "title": "Streaming text to speech | ElevenLabs Documentation",
+          "slug": "how-to-text-to-speech-streaming-8655b6af94",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:33.445092+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/how-to-text-to-speech-streaming-8655b6af94.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/how-to-text-to-speech-streaming-8655b6af94.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/how-to-text-to-speech-streaming-8655b6af94.md"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/voices/instant-voice-cloning",
+          "title": "Instant Voice Cloning quickstart | ElevenLabs Documentation",
+          "slug": "how-to-voices-instant-voice-cloning-e96a4c7120",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:34.232970+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/elevenlabs-api/how-to-voices-instant-voice-cloning-e96a4c7120.html",
+          "extracted_path": "knowledgebase/store/extracted/elevenlabs-api/how-to-voices-instant-voice-cloning-e96a4c7120.md",
+          "enriched_path": "knowledgebase/store/enriched/elevenlabs-api/how-to-voices-instant-voice-cloning-e96a4c7120.md"
+        }
+      ]
+    },
+    {
+      "target_id": "heroui-react",
+      "name": "HeroUI React",
+      "collected_pages": 4,
+      "pages": [
+        {
+          "url": "https://heroui.com/react/llms-components.txt",
+          "title": "<page url=\"/docs/react/components/button-group\">",
+          "slug": "react-llms-components-txt-3a2ee0b1b3",
+          "status": 200,
+          "fetched_at": "2026-04-16T00:59:40.378584+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/heroui-react/react-llms-components-txt-3a2ee0b1b3.txt",
+          "extracted_path": "knowledgebase/store/extracted/heroui-react/react-llms-components-txt-3a2ee0b1b3.md",
+          "enriched_path": "knowledgebase/store/enriched/heroui-react/react-llms-components-txt-3a2ee0b1b3.md"
+        },
+        {
+          "url": "https://heroui.com/react/llms-full.txt",
+          "title": "<page url=\"/docs/react/components\">",
+          "slug": "react-llms-full-txt-0fc40f22f9",
+          "status": 200,
+          "fetched_at": "2026-04-16T00:59:36.749134+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/heroui-react/react-llms-full-txt-0fc40f22f9.txt",
+          "extracted_path": "knowledgebase/store/extracted/heroui-react/react-llms-full-txt-0fc40f22f9.md",
+          "enriched_path": "knowledgebase/store/enriched/heroui-react/react-llms-full-txt-0fc40f22f9.md"
+        },
+        {
+          "url": "https://heroui.com/react/llms-patterns.txt",
+          "title": "<page url=\"/docs/react/getting-started/animation\">",
+          "slug": "react-llms-patterns-txt-434c89fdec",
+          "status": 200,
+          "fetched_at": "2026-04-16T00:59:41.114005+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/heroui-react/react-llms-patterns-txt-434c89fdec.txt",
+          "extracted_path": "knowledgebase/store/extracted/heroui-react/react-llms-patterns-txt-434c89fdec.md",
+          "enriched_path": "knowledgebase/store/enriched/heroui-react/react-llms-patterns-txt-434c89fdec.md"
+        },
+        {
+          "url": "https://heroui.com/react/llms.txt",
+          "title": "# HeroUI v3 React Documentation",
+          "slug": "react-llms-txt-fbd1292bc1",
+          "status": 200,
+          "fetched_at": "2026-04-16T00:59:28.890020+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/heroui-react/react-llms-txt-fbd1292bc1.txt",
+          "extracted_path": "knowledgebase/store/extracted/heroui-react/react-llms-txt-fbd1292bc1.md",
+          "enriched_path": "knowledgebase/store/enriched/heroui-react/react-llms-txt-fbd1292bc1.md"
+        }
+      ]
+    },
+    {
+      "target_id": "google-identity-and-workspace",
+      "name": "Google Identity and Workspace Events",
+      "collected_pages": 10,
+      "pages": [
+        {
+          "url": "https://developers.google.com/workspace/gmail/api/guides/push",
+          "title": "Configure push notifications in Gmail API | Google for Developers",
+          "slug": "api-guides-push-34c58ab521",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:38.626441+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/api-guides-push-34c58ab521.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/api-guides-push-34c58ab521.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/api-guides-push-34c58ab521.md"
+        },
+        {
+          "url": "https://developers.google.com/workspace/calendar/api/guides/push",
+          "title": "Push notifications | Google Calendar | Google for Developers",
+          "slug": "api-guides-push-a52e5f2bd9",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:39.359088+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/api-guides-push-a52e5f2bd9.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/api-guides-push-a52e5f2bd9.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/api-guides-push-a52e5f2bd9.md"
+        },
+        {
+          "url": "https://developers.google.com/workspace/gmail/api/guides",
+          "title": "Gmail API overview | Google for Developers",
+          "slug": "gmail-api-guides-112cb4d82c",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:44.203499+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/gmail-api-guides-112cb4d82c.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/gmail-api-guides-112cb4d82c.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/gmail-api-guides-112cb4d82c.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/guides/automatic-sign-in-sign-out",
+          "title": "Automatic sign-in and sign-out | Web guides | Google for Developers",
+          "slug": "web-guides-automatic-sign-in-sign-out-b7b84d4b4b",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:41.493069+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-automatic-sign-in-sign-out-b7b84d4b4b.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-guides-automatic-sign-in-sign-out-b7b84d4b4b.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-guides-automatic-sign-in-sign-out-b7b84d4b4b.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/guides/display-browsers-native-credential-manager",
+          "title": "Display the browser's native credential manager | Web guides | Google for Developers",
+          "slug": "web-guides-display-browsers-native-credential-manager-e744e67e86",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:42.833150+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-display-browsers-native-credential-manager-e744e67e86.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-guides-display-browsers-native-credential-manager-e744e67e86.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-guides-display-browsers-native-credential-manager-e744e67e86.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/guides/display-google-one-tap",
+          "title": "Display Google One Tap | Web guides | Google for Developers",
+          "slug": "web-guides-display-google-one-tap-a012e56862",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:40.670923+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-display-google-one-tap-a012e56862.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-guides-display-google-one-tap-a012e56862.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-guides-display-google-one-tap-a012e56862.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/guides/overview",
+          "title": "Overview | Web guides | Google for Developers",
+          "slug": "web-guides-overview-c2ddf2469a",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:37.315493+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-overview-c2ddf2469a.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-guides-overview-c2ddf2469a.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-guides-overview-c2ddf2469a.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/guides/personalized-button",
+          "title": "Sign in with Google button UX | Web guides | Google for Developers",
+          "slug": "web-guides-personalized-button-88b97d3b2f",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:39.912862+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-personalized-button-88b97d3b2f.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-guides-personalized-button-88b97d3b2f.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-guides-personalized-button-88b97d3b2f.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/guides/supported-browsers",
+          "title": "Supported browsers and platforms | Web guides | Google for Developers",
+          "slug": "web-guides-supported-browsers-91d3f0ac97",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:43.529703+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-supported-browsers-91d3f0ac97.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-guides-supported-browsers-91d3f0ac97.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-guides-supported-browsers-91d3f0ac97.md"
+        },
+        {
+          "url": "https://developers.google.com/identity/gsi/web/tools/configurator",
+          "title": "Generate HTML code | Web guides | Google for Developers",
+          "slug": "web-tools-configurator-a430c9164d",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:42.146664+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/google-identity-and-workspace/web-tools-configurator-a430c9164d.html",
+          "extracted_path": "knowledgebase/store/extracted/google-identity-and-workspace/web-tools-configurator-a430c9164d.md",
+          "enriched_path": "knowledgebase/store/enriched/google-identity-and-workspace/web-tools-configurator-a430c9164d.md"
+        }
+      ]
+    },
+    {
+      "target_id": "microsoft-identity-and-graph",
+      "name": "Microsoft Entra ID and Graph Change Notifications",
+      "collected_pages": 8,
+      "pages": [
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/",
+          "title": "Microsoft identity platform documentation - Microsoft identity platform | Microsoft Learn",
+          "slug": "en-us-entra-identity-platform-c6e87f5a15",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:45.429239+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/en-us-entra-identity-platform-c6e87f5a15.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/en-us-entra-identity-platform-c6e87f5a15.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/en-us-entra-identity-platform-c6e87f5a15.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/graph/change-notifications-overview",
+          "title": "Set up notifications for changes in resource data - Microsoft Graph | Microsoft Learn",
+          "slug": "en-us-graph-change-notifications-overview-77e65e0dc7",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:45.852380+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/en-us-graph-change-notifications-overview-77e65e0dc7.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/en-us-graph-change-notifications-overview-77e65e0dc7.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/en-us-graph-change-notifications-overview-77e65e0dc7.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/authentication-flows-app-scenarios",
+          "title": "Microsoft identity platform app types and authentication flows - Microsoft identity platform | Microsoft Learn",
+          "slug": "entra-identity-platform-authentication-flows-app-scenarios-5248d4e747",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:47.088423+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-authentication-flows-app-scenarios-5248d4e747.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-authentication-flows-app-scenarios-5248d4e747.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/entra-identity-platform-authentication-flows-app-scenarios-5248d4e747.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization",
+          "title": "Authentication vs. authorization - Microsoft identity platform | Microsoft Learn",
+          "slug": "entra-identity-platform-authentication-vs-authorization-ffeba9c034",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:46.719406+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-authentication-vs-authorization-ffeba9c034.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-authentication-vs-authorization-ffeba9c034.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/entra-identity-platform-authentication-vs-authorization-ffeba9c034.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/sample-v2-code",
+          "title": "Code samples for authentication and authorization - Microsoft identity platform | Microsoft Learn",
+          "slug": "entra-identity-platform-sample-v2-code-b7239b5e78",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:47.656012+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-sample-v2-code-b7239b5e78.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-sample-v2-code-b7239b5e78.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/entra-identity-platform-sample-v2-code-b7239b5e78.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/v2-overview",
+          "title": "Microsoft identity platform overview - Microsoft identity platform | Microsoft Learn",
+          "slug": "entra-identity-platform-v2-overview-1ea42b5ab7",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:46.303281+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-v2-overview-1ea42b5ab7.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-v2-overview-1ea42b5ab7.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/entra-identity-platform-v2-overview-1ea42b5ab7.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/v2-protocols",
+          "title": "OAuth 2.0 and OpenID Connect protocols - Microsoft identity platform | Microsoft Learn",
+          "slug": "entra-identity-platform-v2-protocols-95c59d021b",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:48.438124+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-v2-protocols-95c59d021b.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-v2-protocols-95c59d021b.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/entra-identity-platform-v2-protocols-95c59d021b.md"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity-platform/whats-new-docs",
+          "title": "What's new in the Microsoft identity platform docs - Microsoft identity platform | Microsoft Learn",
+          "slug": "entra-identity-platform-whats-new-docs-25930191e2",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:48.048156+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-whats-new-docs-25930191e2.html",
+          "extracted_path": "knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-whats-new-docs-25930191e2.md",
+          "enriched_path": "knowledgebase/store/enriched/microsoft-identity-and-graph/entra-identity-platform-whats-new-docs-25930191e2.md"
+        }
+      ]
+    },
+    {
+      "target_id": "pexels-api",
+      "name": "Pexels API",
+      "collected_pages": 1,
+      "pages": [
+        {
+          "url": "https://www.pexels.com/api/documentation/",
+          "title": "Pexels API Documentation",
+          "slug": "api-documentation-b03723b62a",
+          "status": 200,
+          "fetched_at": "2026-04-16T01:15:00+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/pexels-api/api-documentation-b03723b62a.txt",
+          "extracted_path": "knowledgebase/store/extracted/pexels-api/api-documentation-b03723b62a.md",
+          "enriched_path": "knowledgebase/store/enriched/pexels-api/api-documentation-b03723b62a.md"
+        }
+      ]
+    },
+    {
+      "target_id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "collected_pages": 8,
+      "pages": [
+        {
+          "url": "https://tailwindcss.com/docs/background-color",
+          "title": "background-color - Backgrounds - Tailwind CSS",
+          "slug": "docs-background-color-f3c3467807",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:53.052382+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-background-color-f3c3467807.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-background-color-f3c3467807.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-background-color-f3c3467807.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/border-radius",
+          "title": "border-radius - Borders - Tailwind CSS",
+          "slug": "docs-border-radius-a87e98104b",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:53.523641+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-border-radius-a87e98104b.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-border-radius-a87e98104b.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-border-radius-a87e98104b.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/display",
+          "title": "display - Layout - Tailwind CSS",
+          "slug": "docs-display-ddb08b8b23",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:51.231596+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-display-ddb08b8b23.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-display-ddb08b8b23.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-display-ddb08b8b23.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/margin",
+          "title": "margin - Spacing - Tailwind CSS",
+          "slug": "docs-margin-d99cf8bb99",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:52.556114+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-margin-d99cf8bb99.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-margin-d99cf8bb99.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-margin-d99cf8bb99.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/max-width",
+          "title": "max-width - Sizing - Tailwind CSS",
+          "slug": "docs-max-width-45a6c92ef7",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:52.123729+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-max-width-45a6c92ef7.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-max-width-45a6c92ef7.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-max-width-45a6c92ef7.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/padding",
+          "title": "padding - Spacing - Tailwind CSS",
+          "slug": "docs-padding-8b6b86d316",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:51.671871+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-padding-8b6b86d316.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-padding-8b6b86d316.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-padding-8b6b86d316.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
+          "title": "Styling with utility classes - Core concepts - Tailwind CSS",
+          "slug": "docs-styling-with-utility-classes-90e7aa6bdf",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:50.785844+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/docs-styling-with-utility-classes-90e7aa6bdf.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/docs-styling-with-utility-classes-90e7aa6bdf.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/docs-styling-with-utility-classes-90e7aa6bdf.md"
+        },
+        {
+          "url": "https://tailwindcss.com/docs/installation/framework-guides/nextjs",
+          "title": "Install Tailwind CSS with Next.js - Tailwind CSS",
+          "slug": "installation-framework-guides-nextjs-1ea4063a49",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:50.198412+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.html",
+          "extracted_path": "knowledgebase/store/extracted/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.md",
+          "enriched_path": "knowledgebase/store/enriched/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.md"
+        }
+      ]
+    },
+    {
+      "target_id": "maplibre-gl-js",
+      "name": "MapLibre GL JS",
+      "collected_pages": 8,
+      "pages": [
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/classes/AttributionControl/",
+          "title": "AttributionControl - MapLibre GL JS",
+          "slug": "api-classes-attributioncontrol-bf2ffec51a",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:56.200422+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/api-classes-attributioncontrol-bf2ffec51a.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/api-classes-attributioncontrol-bf2ffec51a.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/api-classes-attributioncontrol-bf2ffec51a.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/classes/FullscreenControl/",
+          "title": "FullscreenControl - MapLibre GL JS",
+          "slug": "api-classes-fullscreencontrol-c346410c78",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:56.857456+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/api-classes-fullscreencontrol-c346410c78.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/api-classes-fullscreencontrol-c346410c78.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/api-classes-fullscreencontrol-c346410c78.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/classes/GeolocateControl/",
+          "title": "GeolocateControl - MapLibre GL JS",
+          "slug": "api-classes-geolocatecontrol-86ad8f5496",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:57.451584+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/api-classes-geolocatecontrol-86ad8f5496.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/api-classes-geolocatecontrol-86ad8f5496.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/api-classes-geolocatecontrol-86ad8f5496.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/classes/GlobeControl/",
+          "title": "GlobeControl - MapLibre GL JS",
+          "slug": "api-classes-globecontrol-031cb47d3d",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:57.946433+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/api-classes-globecontrol-031cb47d3d.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/api-classes-globecontrol-031cb47d3d.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/api-classes-globecontrol-031cb47d3d.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/classes/Hash/",
+          "title": "Hash - MapLibre GL JS",
+          "slug": "api-classes-hash-3552b2636e",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:58.446920+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/api-classes-hash-3552b2636e.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/api-classes-hash-3552b2636e.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/api-classes-hash-3552b2636e.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/classes/Map/",
+          "title": "Map - MapLibre GL JS",
+          "slug": "api-classes-map-f91ef7c9d8",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:55.667391+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/api-classes-map-f91ef7c9d8.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/api-classes-map-f91ef7c9d8.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/api-classes-map-f91ef7c9d8.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/API/",
+          "title": "Intro - MapLibre GL JS",
+          "slug": "maplibre-gl-js-docs-api-c4bdc22d35",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:54.109467+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/maplibre-gl-js-docs-api-c4bdc22d35.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/maplibre-gl-js-docs-api-c4bdc22d35.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/maplibre-gl-js-docs-api-c4bdc22d35.md"
+        },
+        {
+          "url": "https://maplibre.org/maplibre-gl-js/docs/examples/",
+          "title": "Overview - MapLibre GL JS",
+          "slug": "maplibre-gl-js-docs-examples-3f0d72c618",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:54.682998+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.html",
+          "extracted_path": "knowledgebase/store/extracted/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.md",
+          "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.md"
+        }
+      ]
+    },
+    {
+      "target_id": "apache-echarts",
+      "name": "Apache ECharts",
+      "collected_pages": 8,
+      "pages": [
+        {
+          "url": "https://echarts.apache.org/handbook/en/basics/release-note/v5-feature",
+          "title": "5.0 - What's New - Basics - Handbook - Apache ECharts",
+          "slug": "basics-release-note-v5-feature-f901896ad8",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:04.976999+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/basics-release-note-v5-feature-f901896ad8.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/basics-release-note-v5-feature-f901896ad8.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/basics-release-note-v5-feature-f901896ad8.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/basics/release-note/v6-feature",
+          "title": "ECharts 6 Features - What's New - Basics - Handbook - Apache ECharts",
+          "slug": "basics-release-note-v6-feature-ae3f2bd9a6",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:02.441791+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/basics-release-note-v6-feature-ae3f2bd9a6.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/basics-release-note-v6-feature-ae3f2bd9a6.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/basics-release-note-v6-feature-ae3f2bd9a6.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/basics/release-note/v6-upgrade-guide",
+          "title": "Migration from v5 to v6 - What's New - Basics - Handbook - Apache ECharts",
+          "slug": "basics-release-note-v6-upgrade-guide-f38c9cf354",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:04.229410+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/basics-release-note-v6-upgrade-guide-f38c9cf354.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/basics-release-note-v6-upgrade-guide-f38c9cf354.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/basics-release-note-v6-upgrade-guide-f38c9cf354.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/basics/download",
+          "title": "Download ECharts - Basics - Handbook - Apache ECharts",
+          "slug": "en-basics-download-ddd03618ce",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:00.271314+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/en-basics-download-ddd03618ce.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/en-basics-download-ddd03618ce.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/en-basics-download-ddd03618ce.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/basics/help",
+          "title": "Get Help - Basics - Handbook - Apache ECharts",
+          "slug": "en-basics-help-183a7f3f7d",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:01.707564+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/en-basics-help-183a7f3f7d.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/en-basics-help-183a7f3f7d.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/en-basics-help-183a7f3f7d.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/basics/import",
+          "title": "Import ECharts - Basics - Handbook - Apache ECharts",
+          "slug": "en-basics-import-3f8af1dd56",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:00.999664+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/en-basics-import-3f8af1dd56.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/en-basics-import-3f8af1dd56.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/en-basics-import-3f8af1dd56.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/get-started/",
+          "title": "Get Started - Handbook - Apache ECharts",
+          "slug": "handbook-en-get-started-183a03b910",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:59.006186+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/handbook-en-get-started-183a03b910.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/handbook-en-get-started-183a03b910.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/handbook-en-get-started-183a03b910.md"
+        },
+        {
+          "url": "https://echarts.apache.org/handbook/en/get-started",
+          "title": "Get Started - Handbook - Apache ECharts",
+          "slug": "handbook-en-get-started-7fdb12fab8",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:44:59.547827+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/apache-echarts/handbook-en-get-started-7fdb12fab8.html",
+          "extracted_path": "knowledgebase/store/extracted/apache-echarts/handbook-en-get-started-7fdb12fab8.md",
+          "enriched_path": "knowledgebase/store/enriched/apache-echarts/handbook-en-get-started-7fdb12fab8.md"
+        }
+      ]
+    },
+    {
+      "target_id": "three-js",
+      "name": "Three.js",
+      "collected_pages": 3,
+      "pages": [
+        {
+          "url": "https://threejs.org/docs/",
+          "title": "three.js docs",
+          "slug": "docs-4c2137d203",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:05.972798+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/three-js/docs-4c2137d203.html",
+          "extracted_path": "knowledgebase/store/extracted/three-js/docs-4c2137d203.md",
+          "enriched_path": "knowledgebase/store/enriched/three-js/docs-4c2137d203.md"
+        },
+        {
+          "url": "https://threejs.org/docs/TSL.html",
+          "title": "TSL Specification | three.js",
+          "slug": "docs-tsl-html-7c77749bd9",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:47:55.777660+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/three-js/docs-tsl-html-7c77749bd9.html",
+          "extracted_path": "knowledgebase/store/extracted/three-js/docs-tsl-html-7c77749bd9.md",
+          "enriched_path": "knowledgebase/store/enriched/three-js/docs-tsl-html-7c77749bd9.md"
+        },
+        {
+          "url": "https://threejs.org/manual/en/creating-a-scene.html",
+          "title": "Creating a scene",
+          "slug": "manual-en-creating-a-scene-html-7bff7d872d",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:45:06.428279+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/three-js/manual-en-creating-a-scene-html-7bff7d872d.html",
+          "extracted_path": "knowledgebase/store/extracted/three-js/manual-en-creating-a-scene-html-7bff7d872d.md",
+          "enriched_path": "knowledgebase/store/enriched/three-js/manual-en-creating-a-scene-html-7bff7d872d.md"
+        }
+      ]
+    },
+    {
+      "target_id": "stripe-and-eventbridge",
+      "name": "Stripe and EventBridge",
+      "collected_pages": 10,
+      "pages": [
+        {
+          "url": "https://docs.stripe.com/api/authentication",
+          "title": "Authentication | Stripe API Reference",
+          "slug": "api-authentication-8342ff2421",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:47:59.697566+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-authentication-8342ff2421.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-authentication-8342ff2421.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-authentication-8342ff2421.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api",
+          "title": "Stripe API Reference",
+          "slug": "api-b10fb2fffb",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:47:57.078890+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-b10fb2fffb.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-b10fb2fffb.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-b10fb2fffb.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api/errors",
+          "title": "Errors | Stripe API Reference",
+          "slug": "api-errors-916f36d858",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:48:00.934465+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-errors-916f36d858.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-errors-916f36d858.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-errors-916f36d858.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api/expanding_objects",
+          "title": "Expanding Responses | Stripe API Reference",
+          "slug": "api-expanding-objects-4819cfe0f5",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:48:01.882049+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-expanding-objects-4819cfe0f5.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-expanding-objects-4819cfe0f5.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-expanding-objects-4819cfe0f5.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api/idempotent_requests",
+          "title": "Idempotent requests | Stripe API Reference",
+          "slug": "api-idempotent-requests-ed5db7acf3",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:48:02.876920+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-idempotent-requests-ed5db7acf3.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-idempotent-requests-ed5db7acf3.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-idempotent-requests-ed5db7acf3.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api/include_dependent_response_values",
+          "title": "Include-dependent response values (API v2) | Stripe API Reference",
+          "slug": "api-include-dependent-response-values-0ae21f5342",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:48:03.956679+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-include-dependent-response-values-0ae21f5342.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-include-dependent-response-values-0ae21f5342.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-include-dependent-response-values-0ae21f5342.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api/metadata",
+          "title": "Metadata | Stripe API Reference",
+          "slug": "api-metadata-d96b2842b0",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:48:05.006021+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-metadata-d96b2842b0.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-metadata-d96b2842b0.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-metadata-d96b2842b0.md"
+        },
+        {
+          "url": "https://docs.stripe.com/api/pagination",
+          "title": "Pagination | Stripe API Reference",
+          "slug": "api-pagination-fe3ca82bd7",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:48:06.041947+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/api-pagination-fe3ca82bd7.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/api-pagination-fe3ca82bd7.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/api-pagination-fe3ca82bd7.md"
+        },
+        {
+          "url": "https://docs.stripe.com/event-destinations/eventbridge",
+          "title": "Send events to Amazon EventBridge | Stripe Documentation",
+          "slug": "event-destinations-eventbridge-d2ab56b653",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:47:58.774466+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/event-destinations-eventbridge-d2ab56b653.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/event-destinations-eventbridge-d2ab56b653.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/event-destinations-eventbridge-d2ab56b653.md"
+        },
+        {
+          "url": "https://docs.stripe.com/payments/checkout",
+          "title": "Build a payments page | Stripe Documentation",
+          "slug": "payments-checkout-60a95287ce",
+          "status": 200,
+          "fetched_at": "2026-04-15T19:47:57.817404+00:00",
+          "raw_html_path": "knowledgebase/store/raw_html/stripe-and-eventbridge/payments-checkout-60a95287ce.html",
+          "extracted_path": "knowledgebase/store/extracted/stripe-and-eventbridge/payments-checkout-60a95287ce.md",
+          "enriched_path": "knowledgebase/store/enriched/stripe-and-eventbridge/payments-checkout-60a95287ce.md"
+        }
+      ]
+    }
+  ]
+}

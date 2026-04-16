@@ -1,0 +1,17 @@
+.DS_Store
+
+# Python cache artifacts
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# Editor/project noise
+.idea/
+.vscode/
+
+# Local knowledgebase build artifacts
+knowledgebase/store/raw_html/
+knowledgebase/index/

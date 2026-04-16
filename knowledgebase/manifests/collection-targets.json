@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "description": "Seed targets for official-doc collection. Guardrails are intentionally strict to avoid near-match framework docs.",
+  "targets": [
+    {
+      "id": "aws-amplify-nextjs",
+      "name": "AWS Amplify Gen 2 for Next.js",
+      "scope_note": "Collect only the Next.js documentation surface. Reject adjacent React or JavaScript pages that do not include the Next.js designation.",
+      "allowed_domains": ["docs.amplify.aws"],
+      "allow_prefixes": [
+        "https://docs.amplify.aws/nextjs/"
+      ],
+      "deny_regexes": [
+        "/gen1/",
+        "/react/",
+        "/javascript/"
+      ],
+      "seed_urls": [
+        "https://docs.amplify.aws/nextjs/"
+      ],
+      "max_depth": 1,
+      "max_pages": 12,
+      "cloudraven_focus": "Use this material when the project needs a fast App Router foundation with AWS-managed auth, data, storage, or function layers that can start simple and scale cleanly.",
+      "cloudraven_examples": [
+        "Prototype a client portal with email sign-in, protected routes, and scoped file storage.",
+        "Stand up a campaign operations workspace where app data and asset storage share one managed backend surface."
+      ],
+      "applicability_review": [
+        "High fit when CloudRaven wants one repo to express both frontend and backend intent.",
+        "Review access rules early so prototype shortcuts do not leak into production authorization."
+      ],
+      "tags": ["aws", "amplify", "nextjs", "auth", "data", "storage"]
+    },
+    {
+      "id": "openai-api",
+      "name": "OpenAI API",
+      "scope_note": "Collect API docs and guides only.",
+      "allowed_domains": ["developers.openai.com"],
+      "allow_prefixes": [
+        "https://developers.openai.com/api/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://developers.openai.com/api/docs/quickstart",
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/guides/tools"
+      ],
+      "max_depth": 1,
+      "max_pages": 10,
+      "cloudraven_focus": "Use this material when the project needs API-first intelligence layers for research, generation, orchestration, or structured outputs.",
+      "cloudraven_examples": [
+        "Build a task researcher that produces structured outputs for downstream automation.",
+        "Add a knowledge assistant that can summarize project artifacts and propose next actions."
+      ],
+      "applicability_review": [
+        "High fit for programmable AI workflows that must live inside a custom app or local toolchain.",
+        "Always verify model and tool guidance in the current official docs before implementation."
+      ],
+      "tags": ["openai", "llm", "responses-api", "tools", "agentic-doing"]
+    },
+    {
+      "id": "elevenlabs-api",
+      "name": "ElevenLabs API",
+      "scope_note": "Collect voice and API entry points only.",
+      "allowed_domains": ["elevenlabs.io"],
+      "allow_prefixes": [
+        "https://elevenlabs.io/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://elevenlabs.io/docs/quickstart",
+        "https://elevenlabs.io/docs/api-reference/introduction"
+      ],
+      "max_depth": 1,
+      "max_pages": 8,
+      "cloudraven_focus": "Use this material when a CloudRaven workflow needs speech output, narrated artifacts, or voice-first assistance.",
+      "cloudraven_examples": [
+        "Generate narrated summaries for marketing or knowledge artifacts.",
+        "Prototype a voice-enabled support or intake experience."
+      ],
+      "applicability_review": [
+        "Best fit when voice adds utility, not just novelty.",
+        "Review permissions, latency, and transcript handling before production use."
+      ],
+      "tags": ["voice", "audio", "speech"]
+    },
+    {
+      "id": "heroui-react",
+      "name": "HeroUI React",
+      "scope_note": "Collect the official HeroUI React LLM exports for guides, components, and patterns.",
+      "allowed_domains": ["heroui.com"],
+      "allow_prefixes": [
+        "https://heroui.com/react/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://heroui.com/react/llms.txt",
+        "https://heroui.com/react/llms-full.txt",
+        "https://heroui.com/react/llms-components.txt",
+        "https://heroui.com/react/llms-patterns.txt"
+      ],
+      "max_depth": 0,
+      "max_pages": 4,
+      "cloudraven_focus": "Use this material when the app needs fast interface assembly with a coherent component system.",
+      "cloudraven_examples": [
+        "Assemble internal dashboards, onboarding flows, and admin surfaces quickly.",
+        "Pair with Tailwind when the app needs both structured components and custom layout work."
+      ],
+      "applicability_review": [
+        "High fit for operational interfaces and starter portals.",
+        "Define theming choices early if the product needs strong branding."
+      ],
+      "tags": ["ui-system", "react", "design-system"]
+    },
+    {
+      "id": "google-identity-and-workspace",
+      "name": "Google Identity and Workspace Events",
+      "scope_note": "Collect social sign-in plus Gmail and Calendar push event guidance.",
+      "allowed_domains": ["developers.google.com"],
+      "allow_prefixes": [
+        "https://developers.google.com/identity/gsi/web/",
+        "https://developers.google.com/workspace/gmail/api/",
+        "https://developers.google.com/workspace/calendar/api/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://developers.google.com/identity/gsi/web/guides/overview",
+        "https://developers.google.com/workspace/gmail/api/guides/push",
+        "https://developers.google.com/workspace/calendar/api/guides/push"
+      ],
+      "max_depth": 1,
+      "max_pages": 10,
+      "cloudraven_focus": "Use this material for consumer sign-in and Google Workspace-driven notification workflows.",
+      "cloudraven_examples": [
+        "Link Google sign-in with inbox listeners to automate lead or support flows.",
+        "Use calendar push channels to trigger follow-up actions around scheduling changes."
+      ],
+      "applicability_review": [
+        "Strong fit for assistant workflows that need mailbox or calendar awareness.",
+        "Watch channel renewal and scope management must be part of the design."
+      ],
+      "tags": ["google", "auth", "gmail", "calendar", "webhooks", "notifications"]
+    },
+    {
+      "id": "microsoft-identity-and-graph",
+      "name": "Microsoft Entra ID and Graph Change Notifications",
+      "scope_note": "Collect Microsoft identity platform and Graph change notification guidance.",
+      "allowed_domains": ["learn.microsoft.com"],
+      "allow_prefixes": [
+        "https://learn.microsoft.com/en-us/entra/identity-platform/",
+        "https://learn.microsoft.com/en-us/graph/change-notifications-overview"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://learn.microsoft.com/en-us/entra/identity-platform/",
+        "https://learn.microsoft.com/en-us/graph/change-notifications-overview"
+      ],
+      "max_depth": 1,
+      "max_pages": 8,
+      "cloudraven_focus": "Use this material for enterprise authentication and Microsoft 365 event-driven workflows.",
+      "cloudraven_examples": [
+        "Authenticate workforce users with Microsoft identity and process Outlook mailbox updates.",
+        "Listen for calendar changes to update project workflows or coordination automations."
+      ],
+      "applicability_review": [
+        "High fit for B2B and enterprise collaboration products.",
+        "Tenant type, consent model, and subscription lifecycle need early design attention."
+      ],
+      "tags": ["entra-id", "microsoft-graph", "enterprise-auth", "outlook", "calendar"]
+    },
+    {
+      "id": "pexels-api",
+      "name": "Pexels API",
+      "scope_note": "Collect official API documentation only.",
+      "allowed_domains": ["www.pexels.com"],
+      "allow_prefixes": [
+        "https://www.pexels.com/api/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://www.pexels.com/api/documentation/"
+      ],
+      "max_depth": 1,
+      "max_pages": 5,
+      "cloudraven_focus": "Use this material for licensed stock media retrieval, not image generation.",
+      "cloudraven_examples": [
+        "Populate decks, landing pages, or campaign drafts with stock imagery quickly.",
+        "Source placeholder visuals for prototypes while preserving attribution context."
+      ],
+      "applicability_review": [
+        "Good fit when branded generated imagery is not required.",
+        "Track attribution and licensing context with stored assets."
+      ],
+      "tags": ["media", "photos", "stock-assets"]
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "scope_note": "Collect the Next.js setup path and core utility styling guidance.",
+      "allowed_domains": ["tailwindcss.com"],
+      "allow_prefixes": [
+        "https://tailwindcss.com/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://tailwindcss.com/docs/installation/framework-guides/nextjs",
+        "https://tailwindcss.com/docs/styling-with-utility-classes"
+      ],
+      "max_depth": 1,
+      "max_pages": 8,
+      "cloudraven_focus": "Use this material when fast layout iteration and custom interface composition matter.",
+      "cloudraven_examples": [
+        "Build a branded portal shell with responsive utility classes.",
+        "Layer custom presentation or dashboard layouts over a component system."
+      ],
+      "applicability_review": [
+        "High fit for rapid iteration and unusual UI compositions.",
+        "Create conventions early so utility usage does not become unstructured."
+      ],
+      "tags": ["tailwind", "styling", "frontend"]
+    },
+    {
+      "id": "maplibre-gl-js",
+      "name": "MapLibre GL JS",
+      "scope_note": "Collect API entry points and examples for interactive map work.",
+      "allowed_domains": ["maplibre.org"],
+      "allow_prefixes": [
+        "https://maplibre.org/maplibre-gl-js/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://maplibre.org/maplibre-gl-js/docs/API/",
+        "https://maplibre.org/maplibre-gl-js/docs/examples/"
+      ],
+      "max_depth": 1,
+      "max_pages": 8,
+      "cloudraven_focus": "Use this material for open, portable map-based interfaces and geospatial storytelling.",
+      "cloudraven_examples": [
+        "Visualize service coverage, assets, or route activity on a live map.",
+        "Create location-aware dashboards without locking into a proprietary front-end map SDK."
+      ],
+      "applicability_review": [
+        "Strong fit when the map stack should stay open and customizable.",
+        "Choose tile, geocoding, and style providers deliberately."
+      ],
+      "tags": ["maps", "geospatial", "maplibre"]
+    },
+    {
+      "id": "apache-echarts",
+      "name": "Apache ECharts",
+      "scope_note": "Collect the starter handbook for charting work.",
+      "allowed_domains": ["echarts.apache.org"],
+      "allow_prefixes": [
+        "https://echarts.apache.org/handbook/en/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://echarts.apache.org/handbook/en/get-started/"
+      ],
+      "max_depth": 1,
+      "max_pages": 8,
+      "cloudraven_focus": "Use this material for dashboards and data storytelling views.",
+      "cloudraven_examples": [
+        "Render operational metrics dashboards for internal teams.",
+        "Turn collected activity data into chart-driven reports."
+      ],
+      "applicability_review": [
+        "Best fit when charts directly support user decisions.",
+        "Plan responsive behavior and export needs early."
+      ],
+      "tags": ["charts", "analytics", "dashboards"]
+    },
+    {
+      "id": "three-js",
+      "name": "Three.js",
+      "scope_note": "Collect docs and starter manual pages for 3D web work.",
+      "allowed_domains": ["threejs.org"],
+      "allow_prefixes": [
+        "https://threejs.org/docs/pages/",
+        "https://threejs.org/manual/en/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://threejs.org/docs/pages/AnimationAction.html",
+        "https://threejs.org/docs/pages/Material.html",
+        "https://threejs.org/manual/en/creating-a-scene.html"
+      ],
+      "max_depth": 0,
+      "max_pages": 6,
+      "cloudraven_focus": "Use this material when 3D interaction meaningfully improves comprehension, product exploration, or storytelling.",
+      "cloudraven_examples": [
+        "Visualize a physical product or spatial layout in a browser-based experience.",
+        "Create interactive scenes for higher-impact demos or presentations."
+      ],
+      "applicability_review": [
+        "High fit for product visualization and experiential demos.",
+        "Reserve it for tasks that genuinely benefit from 3D."
+      ],
+      "tags": ["3d", "threejs", "interactive-visuals"]
+    },
+    {
+      "id": "stripe-and-eventbridge",
+      "name": "Stripe and EventBridge",
+      "scope_note": "Collect billing and AWS event-destination entry points.",
+      "allowed_domains": ["docs.stripe.com"],
+      "allow_prefixes": [
+        "https://docs.stripe.com/api",
+        "https://docs.stripe.com/payments/checkout",
+        "https://docs.stripe.com/event-destinations/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://docs.stripe.com/api",
+        "https://docs.stripe.com/payments/checkout",
+        "https://docs.stripe.com/event-destinations/eventbridge"
+      ],
+      "max_depth": 1,
+      "max_pages": 10,
+      "cloudraven_focus": "Use this material for payments, subscriptions, and event-driven back-office workflows.",
+      "cloudraven_examples": [
+        "Connect subscription events to AWS-native processing and entitlement updates.",
+        "Prototype monetization flows with hosted checkout before deeper custom billing work."
+      ],
+      "applicability_review": [
+        "Strong fit for monetization experiments and production-ready payment flows.",
+        "Keep billing state and event processing rules aligned from the start."
+      ],
+      "tags": ["stripe", "billing", "payments", "eventbridge", "aws-events"]
+    }
+  ]
+}
