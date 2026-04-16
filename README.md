@@ -65,8 +65,8 @@ Update workflow:
 - If you collect new docs from URLs, run `python3 scripts/collect_docs.py` and then `python3 scripts/sync_knowledge.py`.
 - If you want shorter commands, use `make kb-sync`, `make kb-collect targets=openai-api`, and `make kb-search q="your query"`.
 
-Optional next steps:
+Common adoption steps:
 
-- add a license file
+- add a license file before wider reuse or publication
 - move the knowledgebase into `/docs/knowledgebase` when integrating it into an application repo
-- tailor the dependency briefs and manifests to the actual stack in the target repository
+- replace the sample dependency briefs and manifests with the actual stack for the target repository
