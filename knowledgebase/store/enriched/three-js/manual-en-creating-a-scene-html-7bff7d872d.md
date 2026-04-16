@@ -1,3 +1,13 @@
+---
+title: Creating a scene | CloudRaven Enrichment
+source_url: https://threejs.org/manual/en/creating-a-scene.html
+target_id: three-js
+dependency: Three.js
+collected_at: 2026-04-16T03:23:19.962288+00:00
+kind: enriched-doc
+tags: 3d, threejs, interactive-visuals
+---
+
 # Creating a scene | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/three-js/manual-en-creating-a-scene-html-7bff7d872d.md`
-- Raw HTML: `knowledgebase/store/raw_html/three-js/manual-en-creating-a-scene-html-7bff7d872d.html`
+- Raw source: `knowledgebase/store/raw_html/three-js/manual-en-creating-a-scene-html-7bff7d872d.html`

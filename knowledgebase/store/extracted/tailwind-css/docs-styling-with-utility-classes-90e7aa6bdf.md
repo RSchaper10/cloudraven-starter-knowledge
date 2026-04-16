@@ -1,3 +1,12 @@
+---
+title: Styling with utility classes - Core concepts - Tailwind CSS
+source_url: https://tailwindcss.com/docs/styling-with-utility-classes
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:56.108578+00:00
+kind: extracted-doc
+---
+
 # Styling with utility classes - Core concepts - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:50.785844+00:00
+- 2026-04-16T03:21:56.108578+00:00
 
 Direct links in scope:
 

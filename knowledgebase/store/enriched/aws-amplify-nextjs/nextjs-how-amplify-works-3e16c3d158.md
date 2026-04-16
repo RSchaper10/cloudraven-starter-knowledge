@@ -1,3 +1,13 @@
+---
+title: How Amplify works - Next.js - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
+source_url: https://docs.amplify.aws/nextjs/how-amplify-works/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:51.825117+00:00
+kind: enriched-doc
+tags: aws, amplify, nextjs, auth, data, storage
+---
+
 # How Amplify works - Next.js - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-how-amplify-works-3e16c3d158.md`
-- Raw HTML: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-how-amplify-works-3e16c3d158.html`
+- Raw source: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-how-amplify-works-3e16c3d158.html`

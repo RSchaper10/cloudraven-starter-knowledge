@@ -1,3 +1,12 @@
+---
+title: Automatic sign-in and sign-out | Web guides | Google for Developers
+source_url: https://developers.google.com/identity/gsi/web/guides/automatic-sign-in-sign-out
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:52.389136+00:00
+kind: extracted-doc
+---
+
 # Automatic sign-in and sign-out | Web guides | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:41.493069+00:00
+- 2026-04-16T03:20:52.389136+00:00
 
 Direct links in scope:
 

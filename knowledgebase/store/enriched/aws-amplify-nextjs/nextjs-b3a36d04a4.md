@@ -1,3 +1,13 @@
+---
+title: Amplify Docs - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
+source_url: https://docs.amplify.aws/nextjs/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:51.415364+00:00
+kind: enriched-doc
+tags: aws, amplify, nextjs, auth, data, storage
+---
+
 # Amplify Docs - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-b3a36d04a4.md`
-- Raw HTML: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-b3a36d04a4.html`
+- Raw source: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-b3a36d04a4.html`

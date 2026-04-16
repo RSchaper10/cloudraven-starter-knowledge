@@ -1,3 +1,13 @@
+---
+title: Display the browser's native credential manager | Web guides | Google for Developers | CloudRaven Enrichment
+source_url: https://developers.google.com/identity/gsi/web/guides/display-browsers-native-credential-manager
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:53.602156+00:00
+kind: enriched-doc
+tags: google, auth, gmail, calendar, webhooks, notifications
+---
+
 # Display the browser's native credential manager | Web guides | Google for Developers | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/google-identity-and-workspace/web-guides-display-browsers-native-credential-manager-e744e67e86.md`
-- Raw HTML: `knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-display-browsers-native-credential-manager-e744e67e86.html`
+- Raw source: `knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-display-browsers-native-credential-manager-e744e67e86.html`

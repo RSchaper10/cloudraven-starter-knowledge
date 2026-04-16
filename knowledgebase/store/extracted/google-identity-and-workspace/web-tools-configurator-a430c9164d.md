@@ -1,3 +1,12 @@
+---
+title: Generate HTML code | Web guides | Google for Developers
+source_url: https://developers.google.com/identity/gsi/web/tools/configurator
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:52.989103+00:00
+kind: extracted-doc
+---
+
 # Generate HTML code | Web guides | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:42.146664+00:00
+- 2026-04-16T03:20:52.989103+00:00
 
 Direct links in scope:
 

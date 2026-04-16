@@ -1,3 +1,13 @@
+---
+title: padding - Spacing - Tailwind CSS | CloudRaven Enrichment
+source_url: https://tailwindcss.com/docs/padding
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:56.958632+00:00
+kind: enriched-doc
+tags: tailwind, styling, frontend
+---
+
 # padding - Spacing - Tailwind CSS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/tailwind-css/docs-padding-8b6b86d316.md`
-- Raw HTML: `knowledgebase/store/raw_html/tailwind-css/docs-padding-8b6b86d316.html`
+- Raw source: `knowledgebase/store/raw_html/tailwind-css/docs-padding-8b6b86d316.html`

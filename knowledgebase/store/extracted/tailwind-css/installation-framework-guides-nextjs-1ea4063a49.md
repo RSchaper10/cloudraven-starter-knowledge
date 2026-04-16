@@ -1,3 +1,12 @@
+---
+title: Install Tailwind CSS with Next.js - Tailwind CSS
+source_url: https://tailwindcss.com/docs/installation/framework-guides/nextjs
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:55.603946+00:00
+kind: extracted-doc
+---
+
 # Install Tailwind CSS with Next.js - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:50.198412+00:00
+- 2026-04-16T03:21:55.603946+00:00
 
 Direct links in scope:
 

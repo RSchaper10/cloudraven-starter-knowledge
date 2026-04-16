@@ -1,3 +1,13 @@
+---
+title: Push notifications | Google Calendar | Google for Developers | CloudRaven Enrichment
+source_url: https://developers.google.com/workspace/calendar/api/guides/push
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:50.276765+00:00
+kind: enriched-doc
+tags: google, auth, gmail, calendar, webhooks, notifications
+---
+
 # Push notifications | Google Calendar | Google for Developers | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/google-identity-and-workspace/api-guides-push-a52e5f2bd9.md`
-- Raw HTML: `knowledgebase/store/raw_html/google-identity-and-workspace/api-guides-push-a52e5f2bd9.html`
+- Raw source: `knowledgebase/store/raw_html/google-identity-and-workspace/api-guides-push-a52e5f2bd9.html`

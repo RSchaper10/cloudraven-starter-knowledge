@@ -17,6 +17,7 @@ TFIDF_INDEX = KNOWLEDGEBASE / "index" / "tfidf-index.json"
 SECRET_PATTERNS = (
     re.compile(r"\b(?:sk|pk|rk)_(?:test|live)_[A-Za-z0-9.]+\b"),
     re.compile(r"\b(?:sk|pk|rk)_(?:test|live)_"),
+    re.compile(r"\beyJ[A-Za-z0-9+/_=-]{10,}\.[A-Za-z0-9+/_=-]{10,}\.[A-Za-z0-9+/_=-]{10,}\b"),
 )
 
 STOPWORDS = {

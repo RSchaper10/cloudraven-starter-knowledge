@@ -1,3 +1,13 @@
+---
+title: Developer quickstart | OpenAI API | CloudRaven Enrichment
+source_url: https://developers.openai.com/api/docs/quickstart
+target_id: openai-api
+dependency: OpenAI API
+collected_at: 2026-04-16T03:20:12.263011+00:00
+kind: enriched-doc
+tags: openai, llm, responses-api, tools, agentic-doing
+---
+
 # Developer quickstart | OpenAI API | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/openai-api/api-docs-quickstart-585848d57d.md`
-- Raw HTML: `knowledgebase/store/raw_html/openai-api/api-docs-quickstart-585848d57d.html`
+- Raw source: `knowledgebase/store/raw_html/openai-api/api-docs-quickstart-585848d57d.html`

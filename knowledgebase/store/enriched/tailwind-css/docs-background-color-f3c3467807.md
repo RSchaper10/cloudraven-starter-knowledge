@@ -1,3 +1,13 @@
+---
+title: background-color - Backgrounds - Tailwind CSS | CloudRaven Enrichment
+source_url: https://tailwindcss.com/docs/background-color
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:58.291030+00:00
+kind: enriched-doc
+tags: tailwind, styling, frontend
+---
+
 # background-color - Backgrounds - Tailwind CSS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/tailwind-css/docs-background-color-f3c3467807.md`
-- Raw HTML: `knowledgebase/store/raw_html/tailwind-css/docs-background-color-f3c3467807.html`
+- Raw source: `knowledgebase/store/raw_html/tailwind-css/docs-background-color-f3c3467807.html`

@@ -1,3 +1,12 @@
+---
+title: Using tools | OpenAI API
+source_url: https://developers.openai.com/api/docs/guides/tools
+target_id: openai-api
+dependency: OpenAI API
+collected_at: 2026-04-16T03:20:13.540950+00:00
+kind: extracted-doc
+---
+
 # Using tools | OpenAI API
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:22.886715+00:00
+- 2026-04-16T03:20:13.540950+00:00
 
 Direct links in scope:
 

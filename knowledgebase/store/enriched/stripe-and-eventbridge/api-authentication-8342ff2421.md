@@ -1,3 +1,13 @@
+---
+title: Authentication | Stripe API Reference | CloudRaven Enrichment
+source_url: https://docs.stripe.com/api/authentication
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:46.423100+00:00
+kind: enriched-doc
+tags: stripe, billing, payments, eventbridge, aws-events
+---
+
 # Authentication | Stripe API Reference | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/stripe-and-eventbridge/api-authentication-8342ff2421.md`
-- Raw HTML: `knowledgebase/store/raw_html/stripe-and-eventbridge/api-authentication-8342ff2421.html`
+- Raw source: `knowledgebase/store/raw_html/stripe-and-eventbridge/api-authentication-8342ff2421.html`

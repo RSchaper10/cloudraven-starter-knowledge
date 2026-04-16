@@ -1,3 +1,13 @@
+---
+title: border-radius - Borders - Tailwind CSS | CloudRaven Enrichment
+source_url: https://tailwindcss.com/docs/border-radius
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:58.713922+00:00
+kind: enriched-doc
+tags: tailwind, styling, frontend
+---
+
 # border-radius - Borders - Tailwind CSS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/tailwind-css/docs-border-radius-a87e98104b.md`
-- Raw HTML: `knowledgebase/store/raw_html/tailwind-css/docs-border-radius-a87e98104b.html`
+- Raw source: `knowledgebase/store/raw_html/tailwind-css/docs-border-radius-a87e98104b.html`

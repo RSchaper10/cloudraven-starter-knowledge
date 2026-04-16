@@ -1,3 +1,12 @@
+---
+title: max-width - Sizing - Tailwind CSS
+source_url: https://tailwindcss.com/docs/max-width
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:57.383887+00:00
+kind: extracted-doc
+---
+
 # max-width - Sizing - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:52.123729+00:00
+- 2026-04-16T03:21:57.383887+00:00
 
 Direct links in scope:
 

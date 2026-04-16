@@ -1,3 +1,12 @@
+---
+title: Map - MapLibre GL JS
+source_url: https://maplibre.org/maplibre-gl-js/docs/API/classes/Map/
+target_id: maplibre-gl-js
+dependency: MapLibre GL JS
+collected_at: 2026-04-16T03:22:09.500280+00:00
+kind: extracted-doc
+---
+
 # Map - MapLibre GL JS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:55.667391+00:00
+- 2026-04-16T03:22:09.500280+00:00
 
 Direct links in scope:
 

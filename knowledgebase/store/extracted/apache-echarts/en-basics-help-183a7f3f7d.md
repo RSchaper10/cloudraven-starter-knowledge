@@ -1,3 +1,12 @@
+---
+title: Get Help - Basics - Handbook - Apache ECharts
+source_url: https://echarts.apache.org/handbook/en/basics/help
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:38.656902+00:00
+kind: extracted-doc
+---
+
 # Get Help - Basics - Handbook - Apache ECharts
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:45:01.707564+00:00
+- 2026-04-16T03:22:38.656902+00:00
 
 Direct links in scope:
 

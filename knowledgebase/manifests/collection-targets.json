@@ -18,8 +18,8 @@
       "seed_urls": [
         "https://docs.amplify.aws/nextjs/"
       ],
-      "max_depth": 1,
-      "max_pages": 12,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material when the project needs a fast App Router foundation with AWS-managed auth, data, storage, or function layers that can start simple and scale cleanly.",
       "cloudraven_examples": [
         "Prototype a client portal with email sign-in, protected routes, and scoped file storage.",
@@ -45,8 +45,8 @@
         "https://developers.openai.com/api/docs/models",
         "https://developers.openai.com/api/docs/guides/tools"
       ],
-      "max_depth": 1,
-      "max_pages": 10,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material when the project needs API-first intelligence layers for research, generation, orchestration, or structured outputs.",
       "cloudraven_examples": [
         "Build a task researcher that produces structured outputs for downstream automation.",
@@ -71,8 +71,8 @@
         "https://elevenlabs.io/docs/quickstart",
         "https://elevenlabs.io/docs/api-reference/introduction"
       ],
-      "max_depth": 1,
-      "max_pages": 8,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material when a CloudRaven workflow needs speech output, narrated artifacts, or voice-first assistance.",
       "cloudraven_examples": [
         "Generate narrated summaries for marketing or knowledge artifacts.",
@@ -99,8 +99,8 @@
         "https://heroui.com/react/llms-components.txt",
         "https://heroui.com/react/llms-patterns.txt"
       ],
-      "max_depth": 0,
-      "max_pages": 4,
+      "max_depth": 2,
+      "max_pages": 10,
       "cloudraven_focus": "Use this material when the app needs fast interface assembly with a coherent component system.",
       "cloudraven_examples": [
         "Assemble internal dashboards, onboarding flows, and admin surfaces quickly.",
@@ -111,6 +111,36 @@
         "Define theming choices early if the product needs strong branding."
       ],
       "tags": ["ui-system", "react", "design-system"]
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "scope_note": "Collect the core shadcn/ui docs for installation, CLI usage, configuration, theming, and the LLM-readable index.",
+      "allowed_domains": ["ui.shadcn.com"],
+      "allow_prefixes": [
+        "https://ui.shadcn.com/docs/",
+        "https://ui.shadcn.com/llms.txt"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://ui.shadcn.com/llms.txt",
+        "https://ui.shadcn.com/docs/installation",
+        "https://ui.shadcn.com/docs/cli",
+        "https://ui.shadcn.com/docs/components-json",
+        "https://ui.shadcn.com/docs/theming"
+      ],
+      "max_depth": 1,
+      "max_pages": 10,
+      "cloudraven_focus": "Use this material when the app wants an open-code component system that can be installed, owned, and customized directly inside the repo.",
+      "cloudraven_examples": [
+        "Replace package-based UI dependencies with copied-in components the team can edit freely.",
+        "Build dashboards, forms, and admin surfaces with Tailwind-aligned components that stay close to the app code."
+      ],
+      "applicability_review": [
+        "High fit when the team wants design-system control without depending on a closed component package abstraction.",
+        "Review component ownership, update strategy, and styling conventions early so copied-in code does not drift inconsistently."
+      ],
+      "tags": ["ui-system", "react", "tailwind", "design-system", "open-code"]
     },
     {
       "id": "google-identity-and-workspace",
@@ -128,8 +158,8 @@
         "https://developers.google.com/workspace/gmail/api/guides/push",
         "https://developers.google.com/workspace/calendar/api/guides/push"
       ],
-      "max_depth": 1,
-      "max_pages": 10,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material for consumer sign-in and Google Workspace-driven notification workflows.",
       "cloudraven_examples": [
         "Link Google sign-in with inbox listeners to automate lead or support flows.",
@@ -155,8 +185,8 @@
         "https://learn.microsoft.com/en-us/entra/identity-platform/",
         "https://learn.microsoft.com/en-us/graph/change-notifications-overview"
       ],
-      "max_depth": 1,
-      "max_pages": 8,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material for enterprise authentication and Microsoft 365 event-driven workflows.",
       "cloudraven_examples": [
         "Authenticate workforce users with Microsoft identity and process Outlook mailbox updates.",
@@ -180,8 +210,8 @@
       "seed_urls": [
         "https://www.pexels.com/api/documentation/"
       ],
-      "max_depth": 1,
-      "max_pages": 5,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material for licensed stock media retrieval, not image generation.",
       "cloudraven_examples": [
         "Populate decks, landing pages, or campaign drafts with stock imagery quickly.",
@@ -206,8 +236,8 @@
         "https://tailwindcss.com/docs/installation/framework-guides/nextjs",
         "https://tailwindcss.com/docs/styling-with-utility-classes"
       ],
-      "max_depth": 1,
-      "max_pages": 8,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material when fast layout iteration and custom interface composition matter.",
       "cloudraven_examples": [
         "Build a branded portal shell with responsive utility classes.",
@@ -232,8 +262,8 @@
         "https://maplibre.org/maplibre-gl-js/docs/API/",
         "https://maplibre.org/maplibre-gl-js/docs/examples/"
       ],
-      "max_depth": 1,
-      "max_pages": 8,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material for open, portable map-based interfaces and geospatial storytelling.",
       "cloudraven_examples": [
         "Visualize service coverage, assets, or route activity on a live map.",
@@ -257,8 +287,8 @@
       "seed_urls": [
         "https://echarts.apache.org/handbook/en/get-started/"
       ],
-      "max_depth": 1,
-      "max_pages": 8,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material for dashboards and data storytelling views.",
       "cloudraven_examples": [
         "Render operational metrics dashboards for internal teams.",
@@ -285,8 +315,8 @@
         "https://threejs.org/docs/pages/Material.html",
         "https://threejs.org/manual/en/creating-a-scene.html"
       ],
-      "max_depth": 0,
-      "max_pages": 6,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material when 3D interaction meaningfully improves comprehension, product exploration, or storytelling.",
       "cloudraven_examples": [
         "Visualize a physical product or spatial layout in a browser-based experience.",
@@ -314,8 +344,8 @@
         "https://docs.stripe.com/payments/checkout",
         "https://docs.stripe.com/event-destinations/eventbridge"
       ],
-      "max_depth": 1,
-      "max_pages": 10,
+      "max_depth": 2,
+      "max_pages": 50,
       "cloudraven_focus": "Use this material for payments, subscriptions, and event-driven back-office workflows.",
       "cloudraven_examples": [
         "Connect subscription events to AWS-native processing and entitlement updates.",

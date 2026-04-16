@@ -1,3 +1,12 @@
+---
+title: margin - Spacing - Tailwind CSS
+source_url: https://tailwindcss.com/docs/margin
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:57.857656+00:00
+kind: extracted-doc
+---
+
 # margin - Spacing - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:52.556114+00:00
+- 2026-04-16T03:21:57.857656+00:00
 
 Direct links in scope:
 

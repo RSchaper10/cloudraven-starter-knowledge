@@ -1,4 +1,14 @@
-# ElevenAPI quickstart | ElevenLabs Documentation | CloudRaven Enrichment
+---
+title: # Page Not Found | CloudRaven Enrichment
+source_url: https://elevenlabs.io/docs/quickstart
+target_id: elevenlabs-api
+dependency: ElevenLabs API
+collected_at: 2026-04-16T03:20:43.523075+00:00
+kind: enriched-doc
+tags: voice, audio, speech
+---
+
+# # Page Not Found | CloudRaven Enrichment
 
 Source URL:
 
@@ -14,10 +24,7 @@ Collection scope:
 
 What this page is useful for:
 
-- ElevenAPI quickstart | ElevenLabs Documentation By the end of this guide you will have a working script that sends a text string to the ElevenLabs API and plays the returned audio through your speakers.
-- You will learn how to authenticate with an API key, install the SDK, and make your first text-to-speech request.
-- For guides covering other capabilities — streaming, voice cloning, speech-to-text — see the Tutorials section.
-- Use the ElevenLabs text-to-speech skill to generate speech from your AI coding assistant: $ npx skills add elevenlabs/skills --skill text-to-speech Using the Text to Speech API 1 Create an API key Create an API key in the dashboard here , which you’ll use to securely access the API .
+- # Page Not Found This page does not exist.
 
 CloudRaven applicability:
 
@@ -42,4 +49,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/elevenlabs-api/docs-quickstart-eaab79e735.md`
-- Raw HTML: `knowledgebase/store/raw_html/elevenlabs-api/docs-quickstart-eaab79e735.html`
+- Raw source: `knowledgebase/store/raw_html/elevenlabs-api/docs-quickstart-eaab79e735.txt`

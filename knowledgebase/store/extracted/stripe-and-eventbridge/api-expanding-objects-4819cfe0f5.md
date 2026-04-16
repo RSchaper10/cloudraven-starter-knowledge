@@ -1,3 +1,12 @@
+---
+title: Expanding Responses | Stripe API Reference
+source_url: https://docs.stripe.com/api/expanding_objects
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:48.653646+00:00
+kind: extracted-doc
+---
+
 # Expanding Responses | Stripe API Reference
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:48:01.882049+00:00
+- 2026-04-16T03:23:48.653646+00:00
 
 Direct links in scope:
 
@@ -469,7 +478,7 @@ https://api.stripe.com/v1/charges/ch_3LmzzQ2eZvKYlo2C0XjzUzJV \
 
 -u
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 
@@ -745,7 +754,7 @@ https://api.stripe.com/v1/customers \
 
 -u
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 
@@ -871,7 +880,7 @@ curl
 
 Authorization: Bearer
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 
@@ -1435,7 +1444,7 @@ https://api.stripe.com/v1/customers \
 
 "
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 

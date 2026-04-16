@@ -1,3 +1,12 @@
+---
+title: Push notifications | Google Calendar | Google for Developers
+source_url: https://developers.google.com/workspace/calendar/api/guides/push
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:50.276765+00:00
+kind: extracted-doc
+---
+
 # Push notifications | Google Calendar | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:39.359088+00:00
+- 2026-04-16T03:20:50.276765+00:00
 
 Direct links in scope:
 

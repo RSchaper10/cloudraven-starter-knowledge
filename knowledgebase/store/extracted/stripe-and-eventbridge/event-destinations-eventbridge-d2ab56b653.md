@@ -1,3 +1,12 @@
+---
+title: Send events to Amazon EventBridge | Stripe Documentation
+source_url: https://docs.stripe.com/event-destinations/eventbridge
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:45.456646+00:00
+kind: extracted-doc
+---
+
 # Send events to Amazon EventBridge | Stripe Documentation
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:47:58.774466+00:00
+- 2026-04-16T03:23:45.456646+00:00
 
 Direct links in scope:
 

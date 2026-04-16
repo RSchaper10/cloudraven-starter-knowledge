@@ -1,3 +1,13 @@
+---
+title: Models | OpenAI API | CloudRaven Enrichment
+source_url: https://developers.openai.com/api/docs/models
+target_id: openai-api
+dependency: OpenAI API
+collected_at: 2026-04-16T03:20:12.960945+00:00
+kind: enriched-doc
+tags: openai, llm, responses-api, tools, agentic-doing
+---
+
 # Models | OpenAI API | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/openai-api/api-docs-models-1d7e8a5ad8.md`
-- Raw HTML: `knowledgebase/store/raw_html/openai-api/api-docs-models-1d7e8a5ad8.html`
+- Raw source: `knowledgebase/store/raw_html/openai-api/api-docs-models-1d7e8a5ad8.html`

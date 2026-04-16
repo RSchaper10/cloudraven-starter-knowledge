@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -18,10 +19,22 @@ URL_MANIFEST_MD = KNOWLEDGEBASE / "manifests" / "url-manifest.md"
 STORE_EXTRACTED = KNOWLEDGEBASE / "store" / "extracted"
 STORE_RAW = KNOWLEDGEBASE / "store" / "raw_html"
 STORE_ENRICHED = KNOWLEDGEBASE / "store" / "enriched"
+SECRET_PATTERNS = (
+    re.compile(r"\b(?:sk|pk|rk)_(?:test|live)_[A-Za-z0-9.]+\b"),
+    re.compile(r"\b(?:sk|pk|rk)_(?:test|live)_"),
+    re.compile(r"\beyJ[A-Za-z0-9+/_=-]{10,}\.[A-Za-z0-9+/_=-]{10,}\.[A-Za-z0-9+/_=-]{10,}\b"),
+)
 
 
 def markdown_escape(value: str) -> str:
     return value.replace("|", "\\|")
+
+
+def redact_secrets(value: str) -> str:
+    redacted = value
+    for pattern in SECRET_PATTERNS:
+        redacted = pattern.sub("[REDACTED_SECRET]", redacted)
+    return redacted
 
 
 def manifest_markdown(manifest: dict) -> str:
@@ -72,7 +85,7 @@ def parse_extracted(path: Path) -> tuple[str, str, str, str]:
     source_url = ""
     collected_at = ""
     dependency = ""
-    lines = path.read_text(encoding="utf-8").splitlines()
+    lines = redact_secrets(path.read_text(encoding="utf-8")).splitlines()
     for index, line in enumerate(lines):
         if line.startswith("# ") and not title:
             title = line[2:].strip()

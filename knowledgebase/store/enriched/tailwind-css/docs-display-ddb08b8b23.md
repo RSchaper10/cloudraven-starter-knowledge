@@ -1,3 +1,13 @@
+---
+title: display - Layout - Tailwind CSS | CloudRaven Enrichment
+source_url: https://tailwindcss.com/docs/display
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:56.533707+00:00
+kind: enriched-doc
+tags: tailwind, styling, frontend
+---
+
 # display - Layout - Tailwind CSS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/tailwind-css/docs-display-ddb08b8b23.md`
-- Raw HTML: `knowledgebase/store/raw_html/tailwind-css/docs-display-ddb08b8b23.html`
+- Raw source: `knowledgebase/store/raw_html/tailwind-css/docs-display-ddb08b8b23.html`

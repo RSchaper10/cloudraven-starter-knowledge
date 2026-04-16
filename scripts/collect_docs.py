@@ -28,6 +28,7 @@ URL_MANIFEST_MD = ROOT / "knowledgebase" / "manifests" / "url-manifest.md"
 SECRET_PATTERNS = (
     re.compile(r"\b(?:sk|pk|rk)_(?:test|live)_[A-Za-z0-9.]+\b"),
     re.compile(r"\b(?:sk|pk|rk)_(?:test|live)_"),
+    re.compile(r"\beyJ[A-Za-z0-9+/_=-]{10,}\.[A-Za-z0-9+/_=-]{10,}\.[A-Za-z0-9+/_=-]{10,}\b"),
 )
 
 

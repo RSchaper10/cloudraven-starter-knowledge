@@ -1,3 +1,13 @@
+---
+title: Build a payments page | Stripe Documentation | CloudRaven Enrichment
+source_url: https://docs.stripe.com/payments/checkout
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:44.553246+00:00
+kind: enriched-doc
+tags: stripe, billing, payments, eventbridge, aws-events
+---
+
 # Build a payments page | Stripe Documentation | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/stripe-and-eventbridge/payments-checkout-60a95287ce.md`
-- Raw HTML: `knowledgebase/store/raw_html/stripe-and-eventbridge/payments-checkout-60a95287ce.html`
+- Raw source: `knowledgebase/store/raw_html/stripe-and-eventbridge/payments-checkout-60a95287ce.html`

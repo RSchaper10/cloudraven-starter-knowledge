@@ -1,3 +1,12 @@
+---
+title: Using GPT-5.4 | OpenAI API
+source_url: https://developers.openai.com/api/docs/guides/latest-model
+target_id: openai-api
+dependency: OpenAI API
+collected_at: 2026-04-16T03:20:15.314113+00:00
+kind: extracted-doc
+---
+
 # Using GPT-5.4 | OpenAI API
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:24.991840+00:00
+- 2026-04-16T03:20:15.314113+00:00
 
 Direct links in scope:
 

@@ -1,3 +1,12 @@
+---
+title: display - Layout - Tailwind CSS
+source_url: https://tailwindcss.com/docs/display
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:56.533707+00:00
+kind: extracted-doc
+---
+
 # display - Layout - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:51.231596+00:00
+- 2026-04-16T03:21:56.533707+00:00
 
 Direct links in scope:
 

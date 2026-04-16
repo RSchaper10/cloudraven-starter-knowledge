@@ -1,3 +1,12 @@
+---
+title: Build UI - AWS Amplify Gen 2 Documentation
+source_url: https://docs.amplify.aws/nextjs/build-ui/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:54.298574+00:00
+kind: extracted-doc
+---
+
 # Build UI - AWS Amplify Gen 2 Documentation
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:17.837428+00:00
+- 2026-04-16T03:19:54.298574+00:00
 
 Direct links in scope:
 

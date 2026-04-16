@@ -1,3 +1,12 @@
+---
+title: Sign in with Google button UX | Web guides | Google for Developers
+source_url: https://developers.google.com/identity/gsi/web/guides/personalized-button
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:51.157353+00:00
+kind: extracted-doc
+---
+
 # Sign in with Google button UX | Web guides | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:39.912862+00:00
+- 2026-04-16T03:20:51.157353+00:00
 
 Direct links in scope:
 

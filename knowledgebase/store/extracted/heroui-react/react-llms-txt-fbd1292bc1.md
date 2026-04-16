@@ -3,7 +3,7 @@ title: # HeroUI v3 React Documentation
 source_url: https://heroui.com/react/llms.txt
 target_id: heroui-react
 dependency: HeroUI React
-collected_at: 2026-04-16T00:59:28.890020+00:00
+collected_at: 2026-04-16T03:20:44.718520+00:00
 kind: extracted-doc
 ---
 
@@ -19,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-16T00:59:28.890020+00:00
+- 2026-04-16T03:20:44.718520+00:00
 
 Direct links in scope:
 

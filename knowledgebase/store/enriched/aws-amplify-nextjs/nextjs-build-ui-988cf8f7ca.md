@@ -1,3 +1,13 @@
+---
+title: Build UI - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
+source_url: https://docs.amplify.aws/nextjs/build-ui/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:54.298574+00:00
+kind: enriched-doc
+tags: aws, amplify, nextjs, auth, data, storage
+---
+
 # Build UI - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-build-ui-988cf8f7ca.md`
-- Raw HTML: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-build-ui-988cf8f7ca.html`
+- Raw source: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-build-ui-988cf8f7ca.html`

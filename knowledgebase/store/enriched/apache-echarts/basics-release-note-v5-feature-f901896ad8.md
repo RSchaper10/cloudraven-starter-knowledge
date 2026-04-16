@@ -1,3 +1,13 @@
+---
+title: 5.0 - What's New - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
+source_url: https://echarts.apache.org/handbook/en/basics/release-note/v5-feature
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:41.078591+00:00
+kind: enriched-doc
+tags: charts, analytics, dashboards
+---
+
 # 5.0 - What's New - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/apache-echarts/basics-release-note-v5-feature-f901896ad8.md`
-- Raw HTML: `knowledgebase/store/raw_html/apache-echarts/basics-release-note-v5-feature-f901896ad8.html`
+- Raw source: `knowledgebase/store/raw_html/apache-echarts/basics-release-note-v5-feature-f901896ad8.html`

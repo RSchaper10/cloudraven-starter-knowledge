@@ -1,3 +1,12 @@
+---
+title: Build a payments page | Stripe Documentation
+source_url: https://docs.stripe.com/payments/checkout
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:44.553246+00:00
+kind: extracted-doc
+---
+
 # Build a payments page | Stripe Documentation
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:47:57.817404+00:00
+- 2026-04-16T03:23:44.553246+00:00
 
 Direct links in scope:
 

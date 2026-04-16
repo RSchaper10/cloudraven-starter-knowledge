@@ -1,3 +1,13 @@
+---
+title: Include-dependent response values (API v2) | Stripe API Reference | CloudRaven Enrichment
+source_url: https://docs.stripe.com/api/include_dependent_response_values
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:50.714682+00:00
+kind: enriched-doc
+tags: stripe, billing, payments, eventbridge, aws-events
+---
+
 # Include-dependent response values (API v2) | Stripe API Reference | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/stripe-and-eventbridge/api-include-dependent-response-values-0ae21f5342.md`
-- Raw HTML: `knowledgebase/store/raw_html/stripe-and-eventbridge/api-include-dependent-response-values-0ae21f5342.html`
+- Raw source: `knowledgebase/store/raw_html/stripe-and-eventbridge/api-include-dependent-response-values-0ae21f5342.html`

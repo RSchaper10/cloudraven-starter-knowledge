@@ -1,3 +1,13 @@
+---
+title: Install Tailwind CSS with Next.js - Tailwind CSS | CloudRaven Enrichment
+source_url: https://tailwindcss.com/docs/installation/framework-guides/nextjs
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:55.603946+00:00
+kind: enriched-doc
+tags: tailwind, styling, frontend
+---
+
 # Install Tailwind CSS with Next.js - Tailwind CSS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.md`
-- Raw HTML: `knowledgebase/store/raw_html/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.html`
+- Raw source: `knowledgebase/store/raw_html/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.html`

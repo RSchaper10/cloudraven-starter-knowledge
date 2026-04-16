@@ -1,3 +1,13 @@
+---
+title: Migration from v5 to v6 - What's New - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
+source_url: https://echarts.apache.org/handbook/en/basics/release-note/v6-upgrade-guide
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:40.088781+00:00
+kind: enriched-doc
+tags: charts, analytics, dashboards
+---
+
 # Migration from v5 to v6 - What's New - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/apache-echarts/basics-release-note-v6-upgrade-guide-f38c9cf354.md`
-- Raw HTML: `knowledgebase/store/raw_html/apache-echarts/basics-release-note-v6-upgrade-guide-f38c9cf354.html`
+- Raw source: `knowledgebase/store/raw_html/apache-echarts/basics-release-note-v6-upgrade-guide-f38c9cf354.html`

@@ -1,3 +1,12 @@
+---
+title: Creating a scene
+source_url: https://threejs.org/manual/en/creating-a-scene.html
+target_id: three-js
+dependency: Three.js
+collected_at: 2026-04-16T03:23:19.962288+00:00
+kind: extracted-doc
+---
+
 # Creating a scene
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:45:06.428279+00:00
+- 2026-04-16T03:23:19.962288+00:00
 
 Direct links in scope:
 

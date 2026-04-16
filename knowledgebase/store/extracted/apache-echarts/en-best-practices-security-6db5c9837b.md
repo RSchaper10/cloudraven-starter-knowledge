@@ -1,0 +1,897 @@
+---
+title: Security Guidelines - Best Practices - Handbook - Apache ECharts
+source_url: https://echarts.apache.org/handbook/en/best-practices/security
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:23:11.608535+00:00
+kind: extracted-doc
+---
+
+# Security Guidelines - Best Practices - Handbook - Apache ECharts
+
+Source URL:
+
+- https://echarts.apache.org/handbook/en/best-practices/security
+
+Dependency:
+
+- Apache ECharts
+
+Collected at:
+
+- 2026-04-16T03:23:11.608535+00:00
+
+Direct links in scope:
+
+- https://echarts.apache.org/handbook/en/get-started
+- https://echarts.apache.org/handbook/en/basics/download
+- https://echarts.apache.org/handbook/en/basics/import
+- https://echarts.apache.org/handbook/en/basics/help
+- https://echarts.apache.org/handbook/en/basics/release-note/v6-feature
+- https://echarts.apache.org/handbook/en/basics/release-note/v6-upgrade-guide
+- https://echarts.apache.org/handbook/en/basics/release-note/v5-feature
+- https://echarts.apache.org/handbook/en/basics/release-note/v5-upgrade-guide
+- https://echarts.apache.org/handbook/en/basics/release-note/5-2-0
+- https://echarts.apache.org/handbook/en/basics/release-note/5-3-0
+- https://echarts.apache.org/handbook/en/basics/release-note/5-4-0
+- https://echarts.apache.org/handbook/en/basics/release-note/5-5-0
+- https://echarts.apache.org/handbook/en/basics/release-note/5-6-0
+- https://echarts.apache.org/handbook/en/concepts/chart-size
+- https://echarts.apache.org/handbook/en/concepts/style
+- https://echarts.apache.org/handbook/en/concepts/dataset
+- https://echarts.apache.org/handbook/en/concepts/data-transform
+- https://echarts.apache.org/handbook/en/concepts/axis
+- https://echarts.apache.org/handbook/en/concepts/visual-map
+- https://echarts.apache.org/handbook/en/concepts/legend
+
+Captured summary:
+
+- Security Guidelines - Best Practices - Handbook - Apache ECharts Get Started Basics Download ECharts Import ECharts Get Help What's New ECharts 6 Features Migration from v5 to v6 5.0 Migration from v4 to v5 5.2 5.3 5.4 5.5 5.6 Concepts Chart Container Style Dataset Data Transform Axis Visual Mapping Legend Event and Action How To Guides Common Charts Bar Basic Bar Stacked Bar Bar Racing Waterfall Line Basic Line Stacked Line Area Chart Smoothed Line Step Line Pie Basic Pie Ring Style Rose Style Scatter Basic Scatter Custom Series Common Components Geo SVG Base Map Cross Platform Server Side Rendering Data Dynamic Data Label Rich Text Animation Data Transition Interaction Drag Intelligent Pointer Snapping Best Practices Canvas vs.
+- SVG Aria Security Guidelines Edit Handbook Edit Guide Security Guidelines Overview ECharts aims to provide rich and flexible visualization capabilities.
+- Although the vast majority of its APIs do not require special security considerations, sereval APIs are exceptions.
+- For example, the option tooltip.formatter accepts a raw HTML string, allowing full control over the component's content and layout; the option title.link uses the provided URL string directly without automatic sanitization.
+- While this flexibility is powerful, security risks may arise if the input comes from untrusted sources.
+
+Extracted text:
+
+Security Guidelines - Best Practices - Handbook - Apache ECharts
+
+Get Started
+
+Basics
+
+Download ECharts
+
+Import ECharts
+
+Get Help
+
+What's New
+
+ECharts 6 Features
+
+Migration from v5 to v6
+
+5.0
+
+Migration from v4 to v5
+
+5.2
+
+5.3
+
+5.4
+
+5.5
+
+5.6
+
+Concepts
+
+Chart Container
+
+Style
+
+Dataset
+
+Data Transform
+
+Axis
+
+Visual Mapping
+
+Legend
+
+Event and Action
+
+How To Guides
+
+Common Charts
+
+Bar
+
+Basic Bar
+
+Stacked Bar
+
+Bar Racing
+
+Waterfall
+
+Line
+
+Basic Line
+
+Stacked Line
+
+Area Chart
+
+Smoothed Line
+
+Step Line
+
+Pie
+
+Basic Pie
+
+Ring Style
+
+Rose Style
+
+Scatter
+
+Basic Scatter
+
+Custom Series
+
+Common Components
+
+Geo
+
+SVG Base Map
+
+Cross Platform
+
+Server Side Rendering
+
+Data
+
+Dynamic Data
+
+Label
+
+Rich Text
+
+Animation
+
+Data Transition
+
+Interaction
+
+Drag
+
+Intelligent Pointer Snapping
+
+Best Practices
+
+Canvas vs. SVG
+
+Aria
+
+Security Guidelines
+
+Edit Handbook
+
+Edit Guide
+
+Security Guidelines
+
+Overview
+
+ECharts aims to provide rich and flexible visualization capabilities. Although the vast majority of its APIs do not require special security considerations, sereval APIs are exceptions. For example, the option
+
+tooltip.formatter
+
+accepts a raw HTML string, allowing full control over the component's content and layout; the option
+
+title.link
+
+uses the provided URL string directly without automatic sanitization. While this flexibility is powerful, security risks may arise if the input comes from untrusted sources. These APIs are listed below, along with suggestions on how to use these features safely.
+
+Any security issues can be reported according to
+
+ASF Security Page
+
+.
+
+Note: This document is intended for ECharts API callers.
+
+Security Checklist for Code Contributors
+
+is another document used before submitting a pull request to ECharts. It is not intended for ECharts API callers, but they may refer to it if interested.
+
+Security Model and Checklist
+
+ECharts focuses on visualization logic. It generally assumes that inputs originate from trusted sources and does not perform automatic sanitization, as in the case with most frontend UI libraries. In fact, ECharts itself cannot properly sanitize untrusted inputs, because it can not determine which inputs are untrusted, and no universal sanitization rules fit all cases. However, ECharts should clearly identify which APIs (especially ECharts options) require security-related preprocessing or considerations in specific use cases. Given the large number of ECharts options, preprocess all inputs in every case would be impractical and unnecessary.
+
+ECharts renders using Canvas or SVG, except for several special components that allow HTML rendering (e.g.,
+
+tooltip
+
+,
+
+dataView
+
+). ECharts APIs accept Non-JS-function inputs and JS-function inputs. JS-function inputs are intended to be execute. Most non-JS-function inputs (e.g., plain text provided to be rendered) are treated as data only, and are inherently prevented from code evaluation and execution. Therefore, they generally do not require sanitization from malicious code. However, several APIs allow embeding potential unsafe content (for example, raw HTML or raw URLs) into the page. These APIs are powerful but vulnerable to Cross-Site Scripting (XSS) and related attacks if the inputs originate from untrusted sources.
+
+Generally speaking, if no untrusted content is involved, these injection vulnerabilities will not arise.
+
+Untrusted content refers to content that originates from a source that can not be fully controlled, or that can be modified or injected by users or external systems. Developers must assume it unsafe to use directly in HTML, CSS and JS. For example, content is untrusted if it is produced by users or received from a client. However, handling user-provided content is often unavoidable. For example, render user data fetched from a database inside an HTML-based
+
+tooltip
+
+through a customized formatter. In such cases, additional processing is required to ensure correctness and safety -- primarily through HTML escaping, and additionally through sanitization when there are parts that cannot be escaped and originate from untrusted sources.
+
+Before deploying charts, please review this
+
+checklist
+
+to ensure your usage is safe:
+
+APIs
+
+Potential Risks and Suggestions
+
+option
+
+tooltip.formatter
+
+·
+
+formatter
+
+allows HTML string or DOM elements input, which are later rendered directly inside the tooltip, where XSS risks need to be considered.
+
+(exceptions): A string directly set to the
+
+formatter
+
+is treated as a simple template for later combining with data internally.
+
+tooltip.renderMode: 'richText'
+
+is another level of templating syntax for styling. Both of them are internally implemented and safe from injection.
+
+option
+
+toolbox.feature.dataView.optionToContent
+
+option
+
+toolbox.feature.dataView.title
+
+option
+
+toolbox.feature.dataView.lang
+
+· The
+
+tooltip.dataView
+
+panel is fully rendered in HTML. Certain parts of the HTML string are allowed to be customized via these APIs.
+
+XSS risks should be considered. In most cases, HTML escaping alone is sufficient. But if any unescaped parts originate from untrusted sources, more measures are required (e.g., sanitization, sandboxing).
+
+See section
+
+"Passing Raw HTML Safely"
+
+for safe usage recommendations.
+
+option
+
+tooltip.extraCssText
+
+·
+
+extraCssText
+
+accepts a raw CSS style string for later directly appending to
+
+tooltipEl.style.cssText
+
+(via the DOM API).
+
+(exceptions): this option is not applicable when
+
+tooltip.renderMode: 'richText'
+
+.
+
+Safe if the input comes from trusted sources; otherwise, a careful assessment is required.
+
+See section
+
+"Passing inline CSS Safely"
+
+for details.
+
+option
+
+title.link
+
+option
+
+title.sublink
+
+option
+
+series-treemap.data.link
+
+option
+
+series-sunburst.data.link
+
+· They accept raw URLs directly for these links.
+
+Safe if the input comes from trusted sources; otherwise, XSS risks should be considered.
+
+See section
+
+"Passing Raw URLs Safely"
+
+for safe usage recommendations.
+
+option
+
+toolbox.feature.saveAsImage.name
+
+option
+
+toolbox.feature.saveAsImage.type
+
+option
+
+title[0].text
+
+· The download filename is assembled by
+
+{name}.{type}
+
+without validation or sanitization. If
+
+name
+
+is not provided,
+
+title[0].text
+
+(if any) has historically been used instead, although this usage is not recommended.
+
+See section
+
+"Passing Download Filename Safely"
+
+for safe usage recommendations.
+
+option
+
+dataset.transform
+
+with type: 'filter' and config.reg
+
+· The filter transform's
+
+config
+
+supports a
+
+reg
+
+key (string or RegExp) for filtering rows by regex match. String values are compiled directly into
+
+RegExp
+
+and executed against every row, with no validation of pattern complexity, length, or execution time.
+
+If
+
+config
+
+(including
+
+reg
+
+) can come from untrusted sources, ReDoS (Regular Expression Denial of Service) risk exists and may freeze the browser tab or block server-side rendering.
+
+See section
+
+"Dataset Filter Transform and the reg Option"
+
+for details.
+
+All JS-function inputs (callbacks)
+
+This is generally not a concern, unless special requirements involve untrusted code.
+
+See section
+
+"Passing JS Function Safely"
+
+for details.
+
+Passing Raw HTML Safely
+
+Section
+
+"Security Model and Checklist"
+
+have listed the APIs that accept raw HTML directly. Untrusted HTML may lead to XSS and related attacks, so additional processing is required before passing content to ECharts. Several commonly used mitigation approaches -- "HTML Escaping", "Sanitization", "Sandboxing" are described below. In most cases, "HTML Escaping" is sufficient, except when unescaped content comes from untrusted sources.
+
+HTML Escaping
+
+HTML escaping is always necessary for data before assembling it to an HTML string -- not only for security, but also for the basic correctness of display.
+
+A typical and simplest HTML escaping implementation is these character conversions:
+
+'&' => '&' '<' => '<' '>' => '>' '"' => '"' "'" => ''
+
+It removes the functionality from the markup characters, thereby closing the attack vector for code injection (e.g.,
+
+<script>...</script>
+
+), regardless of whether the content is trusted or untrusted.
+
+For example,
+
+// Incorrect and unsafe.
+
+formatter
+
+:
+
+params
+
+=>
+
+{
+
+const
+
+{
+
+name
+
+,
+
+value
+
+}
+
+=
+
+params
+
+;
+
+// May cause incorrect rendering if `name` or `value` contain functional
+
+// charactors like '<', '>', etc.
+
+// Additionally, it introduces XSS risks if `name` or `value` come from
+
+// untrusted sources, where malicious code may be injected into that strings.
+
+return
+
+`
+
+${
+
+name
+
+}
+
+, <b>
+
+${
+
+value
+
+}
+
+</b>
+
+`
+
+;
+
+}
+
+// Correct and safe.
+
+formatter
+
+:
+
+params
+
+=>
+
+{
+
+const
+
+{
+
+name
+
+,
+
+value
+
+}
+
+=
+
+params
+
+;
+
+return
+
+`
+
+${
+
+echarts
+
+.
+
+format
+
+.
+
+encodeHTML
+
+(
+
+name
+
+)
+
+}
+
+, <b>
+
+${
+
+echarts
+
+.
+
+format
+
+.
+
+encodeHTML
+
+(
+
+value
+
+)
+
+}
+
+<b/>
+
+`
+
+;
+
+}
+
+Other approaches, like using DOM API
+
+.textContent =
+
+, can also escape HTML.
+
+In most use cases, untrusted content (e.g., user-provided text) is only used for display as plain text, while markup tokens (i.e., parts not meant to be escaped, such as HTML tags or attributes) are fully controlled by the application owner and therefore trusted. In this scenario, HTML escaping alone is an effective and simple way to prevent from XSS, as lone as all untrusted content is properly escaped.
+
+Sanitization
+
+Some use cases require untrusted markup tokens to be interpreted as actual markup. For example, text from a database may include styling or functional tags (e.g.,
+
+<em>
+
+,
+
+<a href="...">
+
+) that are meant to be interpreted rather than displayed as plain text. Another example is that users or untrusted sources are allowed to provide HTML templates that define structures and styles, which are later combined with data content to produce the final renderable HTML and passed to ECharts.
+
+In these cases, the security risks are heightened. Sanitization can be applied to mitigate those risks, provided that no embedded JS and CSS code is allowed to execute. A sanitizer filters HTML content based on predefined whitelists -- for example, removing
+
+<script>
+
+and
+
+<style>
+
+blocks,
+
+<link>
+
+elements, inline CSS, event handler attributes such as
+
+onclick
+
+, and URLs using
+
+javascript:
+
+/
+
+data:
+
+protocol. It's recommended to use a well-maintained and widely adopted sanitizer rather than writing your own regex or manual string manipulations.
+
+Sanitization may be enforced on the client-side, on the server-side, or both, depending on the product requirements and threat model. For example, concerning content that originates from client (e.g., submitted by users), relying only on client-side sanitization is insufficient because an attacker can bypass the client and submit crafted payloads directly to the server. For instance, an online visual editor lets users compose posts in a WYSIWYG fashion, where users can choose from several built-in HTML snippets/templates or JS-functions (e.g., for
+
+tooltip.formatter
+
+or
+
+label.formatter
+
+). If the selected or generated HTML text or JS-function text are sent from client to server and persisted to the database without any additional handling, an attacker can simulate a network request to inject malicious code. Later, when those options are retrieved and passed to
+
+chart.setOption()
+
+, the malicious code will execute. There are some recommended mitigations for this case:
+
+Persist only reference (IDs) to this built-in snippets/tempates or JS-functions, not raw code supplied by client.
+
+If user-provided snippets are allowed for expressiveness (beyond built-in selections), some third-party string templating libraries may be introduced to preventing injection.
+
+If user-provided snippets must allow HTML (beyond the approaches above), enforce strict server-side sanitization or validation before persisting. This should include removing all JS, CSS, and other potentially unsafe content. Additionally, consider using a sandboxed iframe to limit the potential impact of any remaining security issues.
+
+Achieving sufficient security through sanitization is sometimes not easy. It requires proper configurations, must be kept up to date with browers changes, and often needs to be combined with other defense mechanisms to be "safe enough" for most real-world use cases. HTML is extremely complex -- the more features are allowed in untrusted content, the more potential attack vectors are introduced.
+
+Sandboxing
+
+If executing untrusted code is required, or other measures are considered insufficient, a sandboxed iframe can provide a higher level of security, as used by services like JSFiddle and CodePen.
+
+Passing inline CSS Safely
+
+Although CSS safety issues are covered by the discussion about HTML safety (see section
+
+"Passing Raw HTML Safely"
+
+), this section focuses on the APIs that only accept inline CSS strings (those that modify
+
+style
+
+attribute via the DOM API
+
+.style.cssText =
+
+), which are listed in section
+
+"Security Model and Checklist"
+
+.
+
+If the inline CSS strings come entirely from trusted sources (e.g., they are part of your application), security considerations are minimal -- this is also the most common case.
+
+Otherwise, untrusted CSS can lead to attacks. Some widely adopted HTML sanitizers support CSS sanitization, but may remove all CSS by default, since sanitizing CSS properly is quite complex. Therefore, accepting untrusted CSS requires meticulous assessment base on the specific use case.
+
+Passing Raw URLs Safely
+
+Although URL safety issues is covered by the discussion of HTML safety (see section
+
+"Passing Raw HTML Safely"
+
+), this section focuses on the APIs that only accept URL strings, which is listed in section
+
+"Security Model and Checklist"
+
+.
+
+If the URL strings are entirely from trusted sources (e.g., they are part of your application), security considerations are minimal.
+
+Otherwise, untrusted URL strings can lead to attacks, for example, by using protocols, such as
+
+javascript:
+
+or
+
+data:
+
+, to execute malicious code. Therefore, before passing them to ECharts, sanitization should be enforced, typically by validating the protocol against a specified whitelist.
+
+Passing Download Filename Safely
+
+Currently, only the
+
+saveAsImage
+
+feature accepts an input as a filename. This input can be considered safe if it originates from trusted sources, does not exceed the length limit, and contains exclusively ASCII alphabetic characters.
+
+Otherwise, although modern browsers have significantly improved their handling of unsanitized download filenames (e.g., path traversal sequences
+
+../
+
+,
+
+..\\
+
+are stripped, and special characters are correctly handled), some risks still remain, including the inconsistent behaviors with reserved characters and length limitations. Furthermore, the behavior of older clients or browsers is unclear and less robust. Therefore, sanitization or preprocessing are required for these untrusted inputs.
+
+Dataset Filter Transform and the reg Option
+
+The
+
+dataset filter transform
+
+config
+
+supports a
+
+reg
+
+key to filter data rows by matching a dimension value against a regular expression.
+
+reg
+
+accepts a string or a
+
+RegExp
+
+; strings are
+
+compiled directly into
+
+RegExp
+
+and
+
+each row
+
+is matched via
+
+test()
+
+, with
+
+no validation or limit on pattern complexity, length, or execution time
+
+. This design supports serializable configurations (e.g.,
+
+reg: '^asdf$'
+
+from JSON or APIs), but when
+
+config
+
+comes from untrusted sources it introduces
+
+ReDoS (Regular Expression Denial of Service)
+
+risk.
+
+Risk
+
+If an attacker can influence chart options (e.g., saved dashboard or analytics configs), they can supply a pattern with
+
+catastrophic backtracking
+
+(e.g., nested quantifiers like
+
+^(a+)+$
+
+) together with long non-matching input. A single
+
+test()
+
+call can then cause exponential CPU usage:
+
+Client-side
+
+: The browser tab rendering the chart may freeze and require force-closing.
+
+Server-side
+
+: With ECharts server-side rendering (SSR), one malicious request can block the Node.js event loop and affect all concurrent users.
+
+Persistent
+
+: If a malicious config is stored (e.g., in a dashboard), every user who opens that view can trigger the DoS.
+
+This does not involve data disclosure or modification; impact is primarily on availability.
+
+Recommendations
+
+If
+
+config
+
+(including
+
+reg
+
+) for
+
+dataset.transform
+
+comes entirely from trusted sources
+
+(e.g., your application or a controlled backend), no extra measures are needed.
+
+If
+
+config
+
+may come from untrusted sources
+
+(e.g., user input, external APIs, unvalidated database content):
+
+Before passing options to ECharts, enforce a
+
+maximum length
+
+and
+
+complexity checks
+
+on the
+
+reg
+
+string (e.g., reject patterns with nested quantifiers or other known catastrophic-backtracking constructs), or allow only a whitelist of simple patterns.
+
+Alternatively, consider a regex engine with linear-time guarantees (e.g., RE2 on the server) or add a
+
+timeout
+
+for matching (e.g., run the work in a Web Worker with a time limit) to reduce ReDoS risk.
+
+If the product does not need untrusted parties to supply regex patterns, disallow
+
+reg
+
+from external config and only allow safe patterns defined in code.
+
+Passing JS Function Safely
+
+ECharts options (i.e., the input to
+
+chart.setOption()
+
+) are primarily declarative, but some options accept JS-function (callbacks) to provide greater expressiveness and flexibility. Examples include
+
+label.formatter
+
+,
+
+axisTick.interval
+
+, and similar. In most use cases, these JS-function options are part of the source code of the application itself and thus fully trusted, so no security risk is introduced.
+
+However, certain products may allow JS-function options to originate from untrusted sources, for example, end users. Allowing this introduces both security risks and maintenance costs. Essentially, this scenario carries the same level of risk as allowing code execution in untrusted raw HTML, and can be mitigated using similar approaches, as discussed in
+
+"Passing Raw HTML Safely"
+
+.
+
+Contributors
+
+Edit this page on GitHub
+
+100pah
+
+plainheart
+
+Ovilia

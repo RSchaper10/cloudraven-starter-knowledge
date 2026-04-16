@@ -1,3 +1,13 @@
+---
+title: Frontend hosting - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
+source_url: https://docs.amplify.aws/nextjs/deploy-and-host/hosting/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:54.725356+00:00
+kind: enriched-doc
+tags: aws, amplify, nextjs, auth, data, storage
+---
+
 # Frontend hosting - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/aws-amplify-nextjs/nextjs-deploy-and-host-hosting-9a0061c66a.md`
-- Raw HTML: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-deploy-and-host-hosting-9a0061c66a.html`
+- Raw source: `knowledgebase/store/raw_html/aws-amplify-nextjs/nextjs-deploy-and-host-hosting-9a0061c66a.html`

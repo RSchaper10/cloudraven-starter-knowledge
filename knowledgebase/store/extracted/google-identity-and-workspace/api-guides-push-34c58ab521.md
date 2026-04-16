@@ -1,3 +1,12 @@
+---
+title: Configure push notifications in Gmail API | Google for Developers
+source_url: https://developers.google.com/workspace/gmail/api/guides/push
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:49.180490+00:00
+kind: extracted-doc
+---
+
 # Configure push notifications in Gmail API | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:38.626441+00:00
+- 2026-04-16T03:20:49.180490+00:00
 
 Direct links in scope:
 

@@ -1,3 +1,12 @@
+---
+title: Gmail API overview | Google for Developers
+source_url: https://developers.google.com/workspace/gmail/api/guides
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:55.420552+00:00
+kind: extracted-doc
+---
+
 # Gmail API overview | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:44.203499+00:00
+- 2026-04-16T03:20:55.420552+00:00
 
 Direct links in scope:
 

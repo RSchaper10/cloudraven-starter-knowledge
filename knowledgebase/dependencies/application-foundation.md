@@ -1,6 +1,6 @@
 # Application Foundation
 
-This brief covers the starter application layer: AWS Amplify Gen 2 for Next.js, HeroUI, and Tailwind CSS.
+This brief covers the starter application layer: AWS Amplify Gen 2 for Next.js, HeroUI, shadcn/ui, and Tailwind CSS.
 
 ## AWS Amplify Gen 2 for Next.js
 
@@ -66,6 +66,38 @@ Suggested tags:
 - `ui-system`
 - `react`
 - `design-system`
+
+## shadcn/ui
+
+Role:
+
+- Open-code component system for building and owning the UI layer directly in the application repo.
+
+Priority docs:
+
+- https://ui.shadcn.com/llms.txt
+- https://ui.shadcn.com/docs/installation
+- https://ui.shadcn.com/docs/cli
+- https://ui.shadcn.com/docs/components-json
+- https://ui.shadcn.com/docs/theming
+
+Why it fits CloudRaven:
+
+- Useful when the team wants to customize component code directly instead of depending on a package-managed design system.
+- Pairs well with Tailwind when the app needs a component starter layer without giving up implementation ownership.
+
+Production cautions:
+
+- copied-in component code needs clear ownership and conventions or it will drift across the app
+- define how the team will evaluate upstream changes before the component surface grows large
+
+Suggested tags:
+
+- `ui-system`
+- `react`
+- `tailwind`
+- `design-system`
+- `open-code`
 
 ## Tailwind CSS
 

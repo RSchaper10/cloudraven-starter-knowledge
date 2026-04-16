@@ -1,3 +1,12 @@
+---
+title: background-color - Backgrounds - Tailwind CSS
+source_url: https://tailwindcss.com/docs/background-color
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:58.291030+00:00
+kind: extracted-doc
+---
+
 # background-color - Backgrounds - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:53.052382+00:00
+- 2026-04-16T03:21:58.291030+00:00
 
 Direct links in scope:
 

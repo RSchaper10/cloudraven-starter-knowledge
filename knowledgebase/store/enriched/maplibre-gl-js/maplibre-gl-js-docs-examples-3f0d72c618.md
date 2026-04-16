@@ -1,3 +1,13 @@
+---
+title: Overview - MapLibre GL JS | CloudRaven Enrichment
+source_url: https://maplibre.org/maplibre-gl-js/docs/examples/
+target_id: maplibre-gl-js
+dependency: MapLibre GL JS
+collected_at: 2026-04-16T03:22:08.773357+00:00
+kind: enriched-doc
+tags: maps, geospatial, maplibre
+---
+
 # Overview - MapLibre GL JS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.md`
-- Raw HTML: `knowledgebase/store/raw_html/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.html`
+- Raw source: `knowledgebase/store/raw_html/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.html`

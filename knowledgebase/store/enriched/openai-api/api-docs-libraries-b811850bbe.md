@@ -1,3 +1,13 @@
+---
+title: Libraries | OpenAI API | CloudRaven Enrichment
+source_url: https://developers.openai.com/api/docs/libraries
+target_id: openai-api
+dependency: OpenAI API
+collected_at: 2026-04-16T03:20:14.700524+00:00
+kind: enriched-doc
+tags: openai, llm, responses-api, tools, agentic-doing
+---
+
 # Libraries | OpenAI API | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/openai-api/api-docs-libraries-b811850bbe.md`
-- Raw HTML: `knowledgebase/store/raw_html/openai-api/api-docs-libraries-b811850bbe.html`
+- Raw source: `knowledgebase/store/raw_html/openai-api/api-docs-libraries-b811850bbe.html`

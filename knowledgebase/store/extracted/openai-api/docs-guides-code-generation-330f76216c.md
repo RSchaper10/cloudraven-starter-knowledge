@@ -1,3 +1,12 @@
+---
+title: Code generation | OpenAI API
+source_url: https://developers.openai.com/api/docs/guides/code-generation
+target_id: openai-api
+dependency: OpenAI API
+collected_at: 2026-04-16T03:20:17.038652+00:00
+kind: extracted-doc
+---
+
 # Code generation | OpenAI API
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:27.107324+00:00
+- 2026-04-16T03:20:17.038652+00:00
 
 Direct links in scope:
 

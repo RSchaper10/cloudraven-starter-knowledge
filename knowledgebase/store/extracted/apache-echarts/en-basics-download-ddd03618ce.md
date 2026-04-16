@@ -1,3 +1,12 @@
+---
+title: Download ECharts - Basics - Handbook - Apache ECharts
+source_url: https://echarts.apache.org/handbook/en/basics/download
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:37.211848+00:00
+kind: extracted-doc
+---
+
 # Download ECharts - Basics - Handbook - Apache ECharts
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:45:00.271314+00:00
+- 2026-04-16T03:22:37.211848+00:00
 
 Direct links in scope:
 

@@ -1,3 +1,13 @@
+---
+title: ECharts 6 Features - What's New - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
+source_url: https://echarts.apache.org/handbook/en/basics/release-note/v6-feature
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:39.372659+00:00
+kind: enriched-doc
+tags: charts, analytics, dashboards
+---
+
 # ECharts 6 Features - What's New - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/apache-echarts/basics-release-note-v6-feature-ae3f2bd9a6.md`
-- Raw HTML: `knowledgebase/store/raw_html/apache-echarts/basics-release-note-v6-feature-ae3f2bd9a6.html`
+- Raw source: `knowledgebase/store/raw_html/apache-echarts/basics-release-note-v6-feature-ae3f2bd9a6.html`

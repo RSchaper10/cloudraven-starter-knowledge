@@ -1,3 +1,12 @@
+---
+title: 5.0 - What's New - Basics - Handbook - Apache ECharts
+source_url: https://echarts.apache.org/handbook/en/basics/release-note/v5-feature
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:41.078591+00:00
+kind: extracted-doc
+---
+
 # 5.0 - What's New - Basics - Handbook - Apache ECharts
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:45:04.976999+00:00
+- 2026-04-16T03:22:41.078591+00:00
 
 Direct links in scope:
 

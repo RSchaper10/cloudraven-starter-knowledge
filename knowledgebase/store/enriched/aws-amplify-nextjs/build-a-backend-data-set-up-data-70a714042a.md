@@ -1,3 +1,13 @@
+---
+title: Set up Amplify Data - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
+source_url: https://docs.amplify.aws/nextjs/build-a-backend/data/set-up-data/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:53.415407+00:00
+kind: enriched-doc
+tags: aws, amplify, nextjs, auth, data, storage
+---
+
 # Set up Amplify Data - AWS Amplify Gen 2 Documentation | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/aws-amplify-nextjs/build-a-backend-data-set-up-data-70a714042a.md`
-- Raw HTML: `knowledgebase/store/raw_html/aws-amplify-nextjs/build-a-backend-data-set-up-data-70a714042a.html`
+- Raw source: `knowledgebase/store/raw_html/aws-amplify-nextjs/build-a-backend-data-set-up-data-70a714042a.html`

@@ -1,3 +1,12 @@
+---
+title: Use cloud sandbox in dev environment - Next.js - AWS Amplify Gen 2 Documentation
+source_url: https://docs.amplify.aws/nextjs/deploy-and-host/sandbox-environments/setup/
+target_id: aws-amplify-nextjs
+dependency: AWS Amplify Gen 2 for Next.js
+collected_at: 2026-04-16T03:19:55.164118+00:00
+kind: extracted-doc
+---
+
 # Use cloud sandbox in dev environment - Next.js - AWS Amplify Gen 2 Documentation
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:18.917100+00:00
+- 2026-04-16T03:19:55.164118+00:00
 
 Direct links in scope:
 

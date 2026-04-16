@@ -1,3 +1,13 @@
+---
+title: Generate HTML code | Web guides | Google for Developers | CloudRaven Enrichment
+source_url: https://developers.google.com/identity/gsi/web/tools/configurator
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:52.989103+00:00
+kind: enriched-doc
+tags: google, auth, gmail, calendar, webhooks, notifications
+---
+
 # Generate HTML code | Web guides | Google for Developers | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/google-identity-and-workspace/web-tools-configurator-a430c9164d.md`
-- Raw HTML: `knowledgebase/store/raw_html/google-identity-and-workspace/web-tools-configurator-a430c9164d.html`
+- Raw source: `knowledgebase/store/raw_html/google-identity-and-workspace/web-tools-configurator-a430c9164d.html`

@@ -1,3 +1,12 @@
+---
+title: Supported browsers and platforms | Web guides | Google for Developers
+source_url: https://developers.google.com/identity/gsi/web/guides/supported-browsers
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:54.246928+00:00
+kind: extracted-doc
+---
+
 # Supported browsers and platforms | Web guides | Google for Developers
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:43.529703+00:00
+- 2026-04-16T03:20:54.246928+00:00
 
 Direct links in scope:
 

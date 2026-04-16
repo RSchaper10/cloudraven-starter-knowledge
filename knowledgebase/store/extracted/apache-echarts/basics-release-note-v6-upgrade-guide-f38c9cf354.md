@@ -1,3 +1,12 @@
+---
+title: Migration from v5 to v6 - What's New - Basics - Handbook - Apache ECharts
+source_url: https://echarts.apache.org/handbook/en/basics/release-note/v6-upgrade-guide
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:40.088781+00:00
+kind: extracted-doc
+---
+
 # Migration from v5 to v6 - What's New - Basics - Handbook - Apache ECharts
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:45:04.229410+00:00
+- 2026-04-16T03:22:40.088781+00:00
 
 Direct links in scope:
 

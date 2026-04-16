@@ -1,3 +1,13 @@
+---
+title: AttributionControl - MapLibre GL JS | CloudRaven Enrichment
+source_url: https://maplibre.org/maplibre-gl-js/docs/API/classes/AttributionControl/
+target_id: maplibre-gl-js
+dependency: MapLibre GL JS
+collected_at: 2026-04-16T03:22:10.367117+00:00
+kind: enriched-doc
+tags: maps, geospatial, maplibre
+---
+
 # AttributionControl - MapLibre GL JS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/maplibre-gl-js/api-classes-attributioncontrol-bf2ffec51a.md`
-- Raw HTML: `knowledgebase/store/raw_html/maplibre-gl-js/api-classes-attributioncontrol-bf2ffec51a.html`
+- Raw source: `knowledgebase/store/raw_html/maplibre-gl-js/api-classes-attributioncontrol-bf2ffec51a.html`

@@ -1,3 +1,12 @@
+---
+title: Code samples for authentication and authorization - Microsoft identity platform | Microsoft Learn
+source_url: https://learn.microsoft.com/en-us/entra/identity-platform/sample-v2-code
+target_id: microsoft-identity-and-graph
+dependency: Microsoft Entra ID and Graph Change Notifications
+collected_at: 2026-04-16T03:21:31.596052+00:00
+kind: extracted-doc
+---
+
 # Code samples for authentication and authorization - Microsoft identity platform | Microsoft Learn
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:47.656012+00:00
+- 2026-04-16T03:21:31.596052+00:00
 
 Direct links in scope:
 

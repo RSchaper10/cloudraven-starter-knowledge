@@ -1,3 +1,13 @@
+---
+title: Get Help - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
+source_url: https://echarts.apache.org/handbook/en/basics/help
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:38.656902+00:00
+kind: enriched-doc
+tags: charts, analytics, dashboards
+---
+
 # Get Help - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/apache-echarts/en-basics-help-183a7f3f7d.md`
-- Raw HTML: `knowledgebase/store/raw_html/apache-echarts/en-basics-help-183a7f3f7d.html`
+- Raw source: `knowledgebase/store/raw_html/apache-echarts/en-basics-help-183a7f3f7d.html`

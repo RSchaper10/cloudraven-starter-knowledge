@@ -1,3 +1,12 @@
+---
+title: Get Started - Handbook - Apache ECharts
+source_url: https://echarts.apache.org/handbook/en/get-started
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:36.504022+00:00
+kind: extracted-doc
+---
+
 # Get Started - Handbook - Apache ECharts
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:59.547827+00:00
+- 2026-04-16T03:22:36.504022+00:00
 
 Direct links in scope:
 

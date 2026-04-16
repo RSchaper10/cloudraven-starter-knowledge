@@ -3,7 +3,7 @@ title: <page url="/docs/react/getting-started/animation"> | CloudRaven Enrichmen
 source_url: https://heroui.com/react/llms-patterns.txt
 target_id: heroui-react
 dependency: HeroUI React
-collected_at: 2026-04-16T00:59:41.114005+00:00
+collected_at: 2026-04-16T03:20:47.938323+00:00
 kind: enriched-doc
 tags: ui-system, react, design-system
 ---

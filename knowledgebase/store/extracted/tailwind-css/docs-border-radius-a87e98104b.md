@@ -1,3 +1,12 @@
+---
+title: border-radius - Borders - Tailwind CSS
+source_url: https://tailwindcss.com/docs/border-radius
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:58.713922+00:00
+kind: extracted-doc
+---
+
 # border-radius - Borders - Tailwind CSS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:53.523641+00:00
+- 2026-04-16T03:21:58.713922+00:00
 
 Direct links in scope:
 

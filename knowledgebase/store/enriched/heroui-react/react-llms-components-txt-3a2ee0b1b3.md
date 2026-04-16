@@ -3,7 +3,7 @@ title: <page url="/docs/react/components/button-group"> | CloudRaven Enrichment
 source_url: https://heroui.com/react/llms-components.txt
 target_id: heroui-react
 dependency: HeroUI React
-collected_at: 2026-04-16T00:59:40.378584+00:00
+collected_at: 2026-04-16T03:20:47.405381+00:00
 kind: enriched-doc
 tags: ui-system, react, design-system
 ---

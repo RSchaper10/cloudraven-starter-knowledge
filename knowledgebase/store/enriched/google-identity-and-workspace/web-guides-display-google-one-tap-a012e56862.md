@@ -1,3 +1,13 @@
+---
+title: Display Google One Tap | Web guides | Google for Developers | CloudRaven Enrichment
+source_url: https://developers.google.com/identity/gsi/web/guides/display-google-one-tap
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:51.805380+00:00
+kind: enriched-doc
+tags: google, auth, gmail, calendar, webhooks, notifications
+---
+
 # Display Google One Tap | Web guides | Google for Developers | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/google-identity-and-workspace/web-guides-display-google-one-tap-a012e56862.md`
-- Raw HTML: `knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-display-google-one-tap-a012e56862.html`
+- Raw source: `knowledgebase/store/raw_html/google-identity-and-workspace/web-guides-display-google-one-tap-a012e56862.html`

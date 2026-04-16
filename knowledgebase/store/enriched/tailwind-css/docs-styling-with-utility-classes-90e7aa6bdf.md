@@ -1,3 +1,13 @@
+---
+title: Styling with utility classes - Core concepts - Tailwind CSS | CloudRaven Enrichment
+source_url: https://tailwindcss.com/docs/styling-with-utility-classes
+target_id: tailwind-css
+dependency: Tailwind CSS
+collected_at: 2026-04-16T03:21:56.108578+00:00
+kind: enriched-doc
+tags: tailwind, styling, frontend
+---
+
 # Styling with utility classes - Core concepts - Tailwind CSS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/tailwind-css/docs-styling-with-utility-classes-90e7aa6bdf.md`
-- Raw HTML: `knowledgebase/store/raw_html/tailwind-css/docs-styling-with-utility-classes-90e7aa6bdf.html`
+- Raw source: `knowledgebase/store/raw_html/tailwind-css/docs-styling-with-utility-classes-90e7aa6bdf.html`

@@ -1,3 +1,13 @@
+---
+title: Microsoft identity platform app types and authentication flows - Microsoft identity platform | Microsoft Learn | CloudRaven Enrichment
+source_url: https://learn.microsoft.com/en-us/entra/identity-platform/authentication-flows-app-scenarios
+target_id: microsoft-identity-and-graph
+dependency: Microsoft Entra ID and Graph Change Notifications
+collected_at: 2026-04-16T03:21:31.152671+00:00
+kind: enriched-doc
+tags: entra-id, microsoft-graph, enterprise-auth, outlook, calendar
+---
+
 # Microsoft identity platform app types and authentication flows - Microsoft identity platform | Microsoft Learn | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/microsoft-identity-and-graph/entra-identity-platform-authentication-flows-app-scenarios-5248d4e747.md`
-- Raw HTML: `knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-authentication-flows-app-scenarios-5248d4e747.html`
+- Raw source: `knowledgebase/store/raw_html/microsoft-identity-and-graph/entra-identity-platform-authentication-flows-app-scenarios-5248d4e747.html`

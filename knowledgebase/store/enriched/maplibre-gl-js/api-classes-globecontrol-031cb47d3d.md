@@ -1,3 +1,13 @@
+---
+title: GlobeControl - MapLibre GL JS | CloudRaven Enrichment
+source_url: https://maplibre.org/maplibre-gl-js/docs/API/classes/GlobeControl/
+target_id: maplibre-gl-js
+dependency: MapLibre GL JS
+collected_at: 2026-04-16T03:22:12.118062+00:00
+kind: enriched-doc
+tags: maps, geospatial, maplibre
+---
+
 # GlobeControl - MapLibre GL JS | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/maplibre-gl-js/api-classes-globecontrol-031cb47d3d.md`
-- Raw HTML: `knowledgebase/store/raw_html/maplibre-gl-js/api-classes-globecontrol-031cb47d3d.html`
+- Raw source: `knowledgebase/store/raw_html/maplibre-gl-js/api-classes-globecontrol-031cb47d3d.html`

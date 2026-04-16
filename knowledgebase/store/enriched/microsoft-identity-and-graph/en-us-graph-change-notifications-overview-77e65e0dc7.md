@@ -1,3 +1,13 @@
+---
+title: Set up notifications for changes in resource data - Microsoft Graph | Microsoft Learn | CloudRaven Enrichment
+source_url: https://learn.microsoft.com/en-us/graph/change-notifications-overview
+target_id: microsoft-identity-and-graph
+dependency: Microsoft Entra ID and Graph Change Notifications
+collected_at: 2026-04-16T03:21:29.274617+00:00
+kind: enriched-doc
+tags: entra-id, microsoft-graph, enterprise-auth, outlook, calendar
+---
+
 # Set up notifications for changes in resource data - Microsoft Graph | Microsoft Learn | CloudRaven Enrichment
 
 Source URL:
@@ -44,4 +54,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/microsoft-identity-and-graph/en-us-graph-change-notifications-overview-77e65e0dc7.md`
-- Raw HTML: `knowledgebase/store/raw_html/microsoft-identity-and-graph/en-us-graph-change-notifications-overview-77e65e0dc7.html`
+- Raw source: `knowledgebase/store/raw_html/microsoft-identity-and-graph/en-us-graph-change-notifications-overview-77e65e0dc7.html`

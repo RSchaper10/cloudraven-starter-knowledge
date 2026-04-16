@@ -1,3 +1,12 @@
+---
+title: Idempotent requests | Stripe API Reference
+source_url: https://docs.stripe.com/api/idempotent_requests
+target_id: stripe-and-eventbridge
+dependency: Stripe and EventBridge
+collected_at: 2026-04-16T03:23:49.648302+00:00
+kind: extracted-doc
+---
+
 # Idempotent requests | Stripe API Reference
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:48:02.876920+00:00
+- 2026-04-16T03:23:49.648302+00:00
 
 Direct links in scope:
 
@@ -383,7 +392,7 @@ https://api.stripe.com/v1/customers \
 
 -u
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 
@@ -509,7 +518,7 @@ curl
 
 Authorization: Bearer
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 
@@ -1073,7 +1082,7 @@ https://api.stripe.com/v1/customers \
 
 "
 
-[REDACTED_SECRET]...2HlWgH4olfQ2
+[REDACTED_SECRET]
 
 [REDACTED_SECRET]
 

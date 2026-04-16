@@ -1,3 +1,13 @@
+---
+title: Gmail API overview | Google for Developers | CloudRaven Enrichment
+source_url: https://developers.google.com/workspace/gmail/api/guides
+target_id: google-identity-and-workspace
+dependency: Google Identity and Workspace Events
+collected_at: 2026-04-16T03:20:55.420552+00:00
+kind: enriched-doc
+tags: google, auth, gmail, calendar, webhooks, notifications
+---
+
 # Gmail API overview | Google for Developers | CloudRaven Enrichment
 
 Source URL:
@@ -45,4 +55,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/google-identity-and-workspace/gmail-api-guides-112cb4d82c.md`
-- Raw HTML: `knowledgebase/store/raw_html/google-identity-and-workspace/gmail-api-guides-112cb4d82c.html`
+- Raw source: `knowledgebase/store/raw_html/google-identity-and-workspace/gmail-api-guides-112cb4d82c.html`

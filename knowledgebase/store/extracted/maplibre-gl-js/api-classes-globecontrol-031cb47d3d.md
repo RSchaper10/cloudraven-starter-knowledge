@@ -1,3 +1,12 @@
+---
+title: GlobeControl - MapLibre GL JS
+source_url: https://maplibre.org/maplibre-gl-js/docs/API/classes/GlobeControl/
+target_id: maplibre-gl-js
+dependency: MapLibre GL JS
+collected_at: 2026-04-16T03:22:12.118062+00:00
+kind: extracted-doc
+---
+
 # GlobeControl - MapLibre GL JS
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:57.946433+00:00
+- 2026-04-16T03:22:12.118062+00:00
 
 Direct links in scope:
 

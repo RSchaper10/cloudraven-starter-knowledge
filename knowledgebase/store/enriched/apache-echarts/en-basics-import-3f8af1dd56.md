@@ -1,3 +1,13 @@
+---
+title: Import ECharts - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
+source_url: https://echarts.apache.org/handbook/en/basics/import
+target_id: apache-echarts
+dependency: Apache ECharts
+collected_at: 2026-04-16T03:22:37.953206+00:00
+kind: enriched-doc
+tags: charts, analytics, dashboards
+---
+
 # Import ECharts - Basics - Handbook - Apache ECharts | CloudRaven Enrichment
 
 Source URL:
@@ -42,4 +52,4 @@ Suggested retrieval tags:
 Local artifact references:
 
 - Extracted page: `knowledgebase/store/extracted/apache-echarts/en-basics-import-3f8af1dd56.md`
-- Raw HTML: `knowledgebase/store/raw_html/apache-echarts/en-basics-import-3f8af1dd56.html`
+- Raw source: `knowledgebase/store/raw_html/apache-echarts/en-basics-import-3f8af1dd56.html`

@@ -1,3 +1,12 @@
+---
+title: Microsoft identity platform app types and authentication flows - Microsoft identity platform | Microsoft Learn
+source_url: https://learn.microsoft.com/en-us/entra/identity-platform/authentication-flows-app-scenarios
+target_id: microsoft-identity-and-graph
+dependency: Microsoft Entra ID and Graph Change Notifications
+collected_at: 2026-04-16T03:21:31.152671+00:00
+kind: extracted-doc
+---
+
 # Microsoft identity platform app types and authentication flows - Microsoft identity platform | Microsoft Learn
 
 Source URL:
@@ -10,7 +19,7 @@ Dependency:
 
 Collected at:
 
-- 2026-04-15T19:44:47.088423+00:00
+- 2026-04-16T03:21:31.152671+00:00
 
 Direct links in scope:
 
