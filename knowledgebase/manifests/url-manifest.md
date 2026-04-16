@@ -1,6 +1,6 @@
 # URL Manifest
 
-Generated at: `2026-04-16T01:07:44.654263+00:00`
+Generated at: `2026-04-16T02:37:46.087710+00:00`
 
 ## AWS Amplify Gen 2 for Next.js
 

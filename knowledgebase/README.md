@@ -1,6 +1,6 @@
 # Knowledgebase Index
 
-This folder is the starter micro-library for CloudRaven dependency knowledge.
+This folder contains the starter knowledgebase structure for collecting, curating, and retrieving dependency and implementation knowledge inside a repository.
 
 It is organized around four layers:
 
@@ -37,7 +37,7 @@ Recommended working order:
 
 1. Add or update dependency URLs in the manifest.
 2. Capture raw notes from official docs only.
-3. Distill those notes into dependency briefs.
+3. Distill those notes into dependency briefs and enriched notes.
 4. Tag and persist the distilled notes using the retrieval schema.
 5. Reference the knowledgebase during planning, implementation, and review.
 

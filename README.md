@@ -1,14 +1,14 @@
-# CloudRaven Starter Knowledge
+# Repo Knowledgebase Starter
 
-This repository is now scaffolded as a docs-first knowledgebase for CloudRaven Labs rapid prototyping-to-production work.
+This repository is a docs-first starter scaffold for building a shared, repo-local knowledgebase alongside an application codebase.
 
-The current version does not add runtime code, package installs, or implementation scaffolding. It focuses on:
+It does not add runtime code, package installs, or app scaffolding. It focuses on:
 
-- collecting official documentation entry points for core dependencies
-- curating that material into reusable dependency briefs
+- collecting official documentation entry points for important dependencies
+- capturing extracted markdown from those sources
+- distilling that material into reusable enriched notes and dependency briefs
 - defining how knowledge should be persisted in the repo
-- outlining a semantic retrieval layer for agentic development workflows
-- providing starter templates for future doc intake and enrichment
+- providing a local retrieval workflow for collaborators and coding agents
 
 Start here:
 
@@ -19,25 +19,23 @@ Start here:
 
 Repo status:
 
-- The original project brief remains in [SUMMARY.md](./SUMMARY.md).
-- The repo currently contains knowledge assets only.
+- The original project brief for this starter remains in [SUMMARY.md](./SUMMARY.md).
+- The repo contains knowledge assets and local tooling only.
 
-Publishing this repo:
+Using this starter in another repo:
 
-1. Create a new GitHub repository for this starter.
-2. Initialize git locally and add the remote.
-3. Commit the scaffold, manifests, scripts, and shared Markdown knowledge.
-4. Push to GitHub and use the repo as a starter to copy into application repos.
+1. Copy the knowledgebase structure and scripts into your target repository.
+2. Update the dependency targets in `knowledgebase/manifests/collection-targets.json`.
+3. Collect and curate the docs that matter for that repo's architecture.
+4. Commit the shared markdown knowledge so anyone with repo access can use it.
 
 Suggested commands:
 
 ```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial knowledgebase starter"
-git remote add origin git@github.com:YOUR_ORG/YOUR_REPO.git
-git push -u origin main
+python3 scripts/collect_docs.py
+python3 scripts/sync_knowledge.py
+python3 scripts/build_search_index.py
+python3 scripts/search_knowledge.py "your query"
 ```
 
 Recommended tracked content:
@@ -61,8 +59,14 @@ Knowledge syncing policy:
 - Treat raw source snapshots and search indexes as rebuildable local artifacts.
 - Rebuild the local retrieval index with `python3 scripts/build_search_index.py` after pulling new markdown knowledge.
 
-Before publishing to GitHub:
+Update workflow:
 
-- choose a license
-- confirm whether you want to keep the sample collected docs and indexes in the public starter
-- update the repo name and README language if this will become a reusable scaffold outside CloudRaven Labs
+- If you add or edit markdown manually in `knowledgebase/`, run `python3 scripts/sync_knowledge.py`.
+- If you collect new docs from URLs, run `python3 scripts/collect_docs.py` and then `python3 scripts/sync_knowledge.py`.
+- If you want shorter commands, use `make kb-sync`, `make kb-collect targets=openai-api`, and `make kb-search q="your query"`.
+
+Optional next steps:
+
+- add a license file
+- move the knowledgebase into `/docs/knowledgebase` when integrating it into an application repo
+- tailor the dependency briefs and manifests to the actual stack in the target repository
