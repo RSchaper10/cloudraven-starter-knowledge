@@ -1,16 +1,15 @@
 # CloudRaven Development Guidelines
 
 <p align="center">
-  <img src="assets/cloudraven-logo-black-01.svg" alt="CloudRaven logo" width="360" />
+  <img src="assets/cloudraven-logo-only-white.svg" alt="CloudRaven logo" width="96" />
 </p>
 
 <p align="center">
-  <img src="assets/cloudraven-rocket.png" alt="CloudRaven rocket" width="220" />
+  <img src="assets/cloudraven-logo-black-01.svg" alt="CloudRaven wordmark" width="320" />
 </p>
 
 <p align="center">
-  <img src="assets/cloudraven-logo-only-blue.svg" alt="CloudRaven icon blue" width="72" />
-  <img src="assets/cloudraven-logo-only.svg" alt="CloudRaven icon black" width="72" />
+  <img src="assets/cloudraven-rocket.png" alt="CloudRaven rocket" width="520" />
 </p>
 
 This repository is the CloudRaven engineering equivalent of an organizational design guide.
