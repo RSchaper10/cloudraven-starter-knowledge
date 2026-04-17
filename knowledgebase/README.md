@@ -24,7 +24,12 @@ Dependency briefs:
 
 - [Application Foundation](./dependencies/application-foundation.md)
 - [AI and Media](./dependencies/ai-and-media.md)
+- [Artifact Automation and Print](./dependencies/artifact-automation-and-print.md)
+- [AWS SES Inbound Email And S3](./dependencies/aws-ses-inbound-email-and-s3.md)
+- [Content Publishing and Markdown](./dependencies/content-publishing-and-markdown.md)
+- [HeroUI to shadcn Migration Example](./dependencies/heroui-to-shadcn-migration-example.md)
 - [Identity and Events](./dependencies/identity-and-events.md)
+- [Important Outbound Email Considerations for Marketing Outreach Dynamics](./dependencies/important-outbound-email-considerations-for-marketing-outreach-dynamics.md)
 - [Visualization and Spatial](./dependencies/visualization-and-spatial.md)
 
 Starter templates:

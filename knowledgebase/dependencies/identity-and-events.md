@@ -2,6 +2,11 @@
 
 This brief covers Google sign-in, Microsoft identity, inbox and calendar listeners, and Stripe eventing.
 
+Related internal operating note:
+
+- `knowledgebase/dependencies/important-outbound-email-considerations-for-marketing-outreach-dynamics.md`
+- `knowledgebase/dependencies/aws-ses-inbound-email-and-s3.md`
+
 ## Google Identity Services
 
 Role:
@@ -55,6 +60,36 @@ Suggested tags:
 - `webhooks`
 - `notifications`
 
+## Amazon SES Email Receiving And S3 Delivery
+
+Role:
+
+- inbound email receiving, receipt-rule execution, and raw-email delivery into S3 for workflow automation
+
+Priority docs:
+
+- https://docs.aws.amazon.com/ses/latest/DeveloperGuide/receiving-email-managing-receipt-rules.html
+- https://docs.aws.amazon.com/ses/latest/dg/receiving-email-action-s3.html
+- https://docs.aws.amazon.com/ses/latest/dg/receiving-email-permissions.html
+
+Why it fits CloudRaven:
+
+- CloudRaven's workspace-agent ingress path uses SES receipt rules plus S3 delivery before the inbound email state machine begins.
+
+Production cautions:
+
+- SES validates S3 delivery permissions when the receipt rule is created, so CloudFormation ordering matters
+- the bucket policy and, if present, KMS key policy must match the documented SES permission contract
+- region, MX, verified identity, and active receipt-rule-set prerequisites are separate from app code and can fail a deploy even when the repo logic is correct
+
+Suggested tags:
+
+- `ses`
+- `email-receiving`
+- `s3`
+- `receipt-rules`
+- `aws-events`
+
 ## Microsoft Entra ID and Microsoft Graph Change Notifications
 
 Role:
@@ -83,6 +118,10 @@ Suggested tags:
 - `outlook`
 - `calendar`
 - `enterprise-auth`
+
+Operational note:
+
+- Use `knowledgebase/dependencies/important-outbound-email-considerations-for-marketing-outreach-dynamics.md` when evaluating research outreach, staged drafts, deliverability behavior, or upsell language in Microsoft 365-adjacent workflows.
 
 ## Stripe and Stripe to AWS EventBridge
 

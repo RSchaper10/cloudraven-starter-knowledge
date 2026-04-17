@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T03:41:12.020812+00:00",
+  "generated_at": "2026-04-17T05:58:24.448556+00:00",
   "targets": [
     {
       "target_id": "aws-amplify-nextjs",
@@ -387,6 +387,30 @@
           "enriched_path": "knowledgebase/store/enriched/aws-amplify-nextjs/start-quickstart-nextjs-pages-router-53ef36cae9.md"
         }
       ]
+    },
+    {
+      "target_id": "nextjs-app-router",
+      "name": "Next.js App Router",
+      "collected_pages": 0,
+      "pages": []
+    },
+    {
+      "target_id": "aws-sdk-javascript-v3",
+      "name": "AWS SDK for JavaScript v3",
+      "collected_pages": 0,
+      "pages": []
+    },
+    {
+      "target_id": "aws-cdk-v2",
+      "name": "AWS CDK v2",
+      "collected_pages": 0,
+      "pages": []
+    },
+    {
+      "target_id": "aws-ses-email-receiving",
+      "name": "AWS SES Email Receiving",
+      "collected_pages": 0,
+      "pages": []
     },
     {
       "target_id": "openai-api",
@@ -2168,6 +2192,12 @@
       ]
     },
     {
+      "target_id": "hubspot-developer-platform",
+      "name": "HubSpot Developer Platform",
+      "collected_pages": 0,
+      "pages": []
+    },
+    {
       "target_id": "tailwind-css",
       "name": "Tailwind CSS",
       "collected_pages": 26,
@@ -2433,6 +2463,12 @@
           "enriched_path": "knowledgebase/store/enriched/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.md"
         }
       ]
+    },
+    {
+      "target_id": "iconify-react",
+      "name": "Iconify React",
+      "collected_pages": 0,
+      "pages": []
     },
     {
       "target_id": "maplibre-gl-js",
@@ -2940,6 +2976,12 @@
           "enriched_path": "knowledgebase/store/enriched/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.md"
         }
       ]
+    },
+    {
+      "target_id": "react-map-gl",
+      "name": "react-map-gl",
+      "collected_pages": 0,
+      "pages": []
     },
     {
       "target_id": "apache-echarts",
@@ -3954,6 +3996,18 @@
           "enriched_path": "knowledgebase/store/enriched/three-js/manual-en-creating-a-scene-html-7bff7d872d.md"
         }
       ]
+    },
+    {
+      "target_id": "pptxgenjs",
+      "name": "PptxGenJS",
+      "collected_pages": 0,
+      "pages": []
+    },
+    {
+      "target_id": "sharp-image-processing",
+      "name": "Sharp Image Processing",
+      "collected_pages": 0,
+      "pages": []
     },
     {
       "target_id": "stripe-and-eventbridge",

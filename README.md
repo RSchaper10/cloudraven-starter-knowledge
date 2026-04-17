@@ -34,9 +34,10 @@ This starter already includes example knowledge across the kinds of systems Clou
 
 - application foundation examples such as AWS Amplify Gen 2 for Next.js
 - AI and media examples such as OpenAI, ElevenLabs, and Pexels
-- UI system examples such as HeroUI, shadcn/ui, and Tailwind CSS
-- identity and event examples such as Google Identity, Gmail and Calendar push flows, and Microsoft Entra ID with Graph notifications
-- visualization examples such as MapLibre GL JS, Apache ECharts, and Three.js
+- UI system examples such as HeroUI, shadcn/ui, Tailwind CSS, and Iconify React
+- identity and event examples such as Google Identity, Gmail and Calendar push flows, Amazon SES receiving, HubSpot delivery flows, and Microsoft Entra ID with Graph notifications
+- visualization examples such as MapLibre GL JS, react-map-gl, Apache ECharts, and Three.js
+- publishing and artifact-automation examples such as markdown pipelines, PptxGenJS, and Sharp
 - billing and event-routing examples such as Stripe and EventBridge
 
 This repository also includes CloudRaven brand assets in [`assets/`](./assets):

@@ -1,6 +1,6 @@
 # URL Manifest
 
-Generated at: `2026-04-16T03:41:12.020812+00:00`
+Generated at: `2026-04-17T05:58:24.448556+00:00`
 
 ## AWS Amplify Gen 2 for Next.js
 
@@ -47,6 +47,38 @@ Generated at: `2026-04-16T03:41:12.020812+00:00`
 | AWS Amplify Gen 2 for Next.js |  | knowledgebase/store/extracted/aws-amplify-nextjs/setup-amplify-data.md | knowledgebase/store/enriched/aws-amplify-nextjs/setup-amplify-data.md |
 | Next.js App Router - Next.js - AWS Amplify Gen 2 Documentation | https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/ | knowledgebase/store/extracted/aws-amplify-nextjs/start-quickstart-nextjs-app-router-client-components-ed51127bdf.md | knowledgebase/store/enriched/aws-amplify-nextjs/start-quickstart-nextjs-app-router-client-components-ed51127bdf.md |
 | Next.js Pages Router - Next.js - AWS Amplify Gen 2 Documentation | https://docs.amplify.aws/nextjs/start/quickstart/nextjs-pages-router/ | knowledgebase/store/extracted/aws-amplify-nextjs/start-quickstart-nextjs-pages-router-53ef36cae9.md | knowledgebase/store/enriched/aws-amplify-nextjs/start-quickstart-nextjs-pages-router-53ef36cae9.md |
+
+## Next.js App Router
+
+- Target ID: `nextjs-app-router`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
+
+## AWS SDK for JavaScript v3
+
+- Target ID: `aws-sdk-javascript-v3`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
+
+## AWS CDK v2
+
+- Target ID: `aws-cdk-v2`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
+
+## AWS SES Email Receiving
+
+- Target ID: `aws-ses-email-receiving`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
 
 ## OpenAI API
 
@@ -277,6 +309,14 @@ Generated at: `2026-04-16T03:41:12.020812+00:00`
 | --- | --- | --- | --- |
 | Pexels API Documentation | https://www.pexels.com/api/documentation/ | knowledgebase/store/extracted/pexels-api/api-documentation-b03723b62a.md | knowledgebase/store/enriched/pexels-api/api-documentation-b03723b62a.md |
 
+## HubSpot Developer Platform
+
+- Target ID: `hubspot-developer-platform`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
+
 ## Tailwind CSS
 
 - Target ID: `tailwind-css`
@@ -310,6 +350,14 @@ Generated at: `2026-04-16T03:41:12.020812+00:00`
 | visibility - Layout - Tailwind CSS | https://tailwindcss.com/docs/visibility | knowledgebase/store/extracted/tailwind-css/docs-visibility-40ddf67704.md | knowledgebase/store/enriched/tailwind-css/docs-visibility-40ddf67704.md |
 | width - Sizing - Tailwind CSS | https://tailwindcss.com/docs/width | knowledgebase/store/extracted/tailwind-css/docs-width-10e3273049.md | knowledgebase/store/enriched/tailwind-css/docs-width-10e3273049.md |
 | Install Tailwind CSS with Next.js - Tailwind CSS | https://tailwindcss.com/docs/installation/framework-guides/nextjs | knowledgebase/store/extracted/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.md | knowledgebase/store/enriched/tailwind-css/installation-framework-guides-nextjs-1ea4063a49.md |
+
+## Iconify React
+
+- Target ID: `iconify-react`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
 
 ## MapLibre GL JS
 
@@ -368,6 +416,14 @@ Generated at: `2026-04-16T03:41:12.020812+00:00`
 | PointLike - MapLibre GL JS | https://maplibre.org/maplibre-gl-js/docs/API/type-aliases/PointLike/ | knowledgebase/store/extracted/maplibre-gl-js/api-type-aliases-pointlike-1302cd5c5e.md | knowledgebase/store/enriched/maplibre-gl-js/api-type-aliases-pointlike-1302cd5c5e.md |
 | Intro - MapLibre GL JS | https://maplibre.org/maplibre-gl-js/docs/API/ | knowledgebase/store/extracted/maplibre-gl-js/maplibre-gl-js-docs-api-c4bdc22d35.md | knowledgebase/store/enriched/maplibre-gl-js/maplibre-gl-js-docs-api-c4bdc22d35.md |
 | Overview - MapLibre GL JS | https://maplibre.org/maplibre-gl-js/docs/examples/ | knowledgebase/store/extracted/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.md | knowledgebase/store/enriched/maplibre-gl-js/maplibre-gl-js-docs-examples-3f0d72c618.md |
+
+## react-map-gl
+
+- Target ID: `react-map-gl`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
 
 ## Apache ECharts
 
@@ -484,6 +540,22 @@ Generated at: `2026-04-16T03:41:12.020812+00:00`
 | WebGPURenderer - Three.js Docs | https://threejs.org/docs/pages/WebGPURenderer.html | knowledgebase/store/extracted/three-js/docs-pages-webgpurenderer-html-345d493ebf.md | knowledgebase/store/enriched/three-js/docs-pages-webgpurenderer-html-345d493ebf.md |
 | TSL Specification \| three.js | https://threejs.org/docs/TSL.html | knowledgebase/store/extracted/three-js/docs-tsl-html-7c77749bd9.md | knowledgebase/store/enriched/three-js/docs-tsl-html-7c77749bd9.md |
 | Creating a scene | https://threejs.org/manual/en/creating-a-scene.html | knowledgebase/store/extracted/three-js/manual-en-creating-a-scene-html-7bff7d872d.md | knowledgebase/store/enriched/three-js/manual-en-creating-a-scene-html-7bff7d872d.md |
+
+## PptxGenJS
+
+- Target ID: `pptxgenjs`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
+
+## Sharp Image Processing
+
+- Target ID: `sharp-image-processing`
+- Collected pages: `0`
+
+| Title | URL | Extracted | Enriched |
+| --- | --- | --- | --- |
 
 ## Stripe and EventBridge
 

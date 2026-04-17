@@ -32,6 +32,117 @@
       "tags": ["aws", "amplify", "nextjs", "auth", "data", "storage"]
     },
     {
+      "id": "nextjs-app-router",
+      "name": "Next.js App Router",
+      "scope_note": "Collect official App Router, route handler, and data-fetching guidance for the runtime this repo uses.",
+      "allowed_domains": ["nextjs.org"],
+      "allow_prefixes": [
+        "https://nextjs.org/docs/app/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://nextjs.org/docs/app",
+        "https://nextjs.org/docs/app/building-your-application/routing/route-handlers",
+        "https://nextjs.org/docs/app/building-your-application/data-fetching"
+      ],
+      "max_depth": 2,
+      "max_pages": 50,
+      "cloudraven_focus": "Use this material for the server-first application shell, route handlers, and data-fetching model that frame the public site and authenticated workspace.",
+      "cloudraven_examples": [
+        "Keep the account shell server-bootstrapped while hydrating client-heavy operator panels only where interaction requires it.",
+        "Use route handlers for provider callbacks, notification webhooks, and workspace-side integrations."
+      ],
+      "applicability_review": [
+        "High fit because the repo already depends on App Router boundaries, server data bootstrapping, and route handlers.",
+        "Cache and revalidation behavior should be reviewed before shipping new data-heavy or integration-heavy surfaces."
+      ],
+      "tags": ["nextjs", "app-router", "route-handlers", "server-components"]
+    },
+    {
+      "id": "aws-sdk-javascript-v3",
+      "name": "AWS SDK for JavaScript v3",
+      "scope_note": "Collect the modular SDK developer guide relevant to direct service-client usage inside handlers and shared runtimes.",
+      "allowed_domains": ["docs.aws.amazon.com"],
+      "allow_prefixes": [
+        "https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html",
+        "https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/javascript_s3_code_examples.html",
+        "https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/javascript_sfn_code_examples.html"
+      ],
+      "max_depth": 2,
+      "max_pages": 50,
+      "cloudraven_focus": "Use this material when Amplify handlers need direct access to AWS service clients for orchestration, mail, secrets, storage, or persistence operations.",
+      "cloudraven_examples": [
+        "Call Step Functions directly from custom mutations that launch multi-step workflows.",
+        "Use Secrets Manager, SES, S3, and DynamoDB clients from shared runtime helpers without hiding the operational contracts."
+      ],
+      "applicability_review": [
+        "High fit because the repo directly imports modular AWS SDK clients in multiple handlers.",
+        "Client reuse, error handling, retries, and IAM scope should be reviewed as first-class implementation concerns."
+      ],
+      "tags": ["aws", "sdk", "lambda", "service-clients", "nodejs"]
+    },
+    {
+      "id": "aws-cdk-v2",
+      "name": "AWS CDK v2",
+      "scope_note": "Collect the CDK v2 guide material most relevant to backend assembly, IAM, and Step Functions wiring.",
+      "allowed_domains": ["docs.aws.amazon.com"],
+      "allow_prefixes": [
+        "https://docs.aws.amazon.com/cdk/v2/guide/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://docs.aws.amazon.com/cdk/v2/guide/work-with-cfn.html",
+        "https://docs.aws.amazon.com/cdk/v2/guide/work-with-stepfunctions.html"
+      ],
+      "max_depth": 2,
+      "max_pages": 50,
+      "cloudraven_focus": "Use this material when `amplify/backend.ts` needs deeper infra customization than the default Amplify resource wrappers provide.",
+      "cloudraven_examples": [
+        "Attach additional IAM policies or event-source wiring to Amplify-defined resources.",
+        "Assemble Step Functions, environment wiring, and cross-resource permissions in a single backend composition layer."
+      ],
+      "applicability_review": [
+        "High fit because the repo's deployment source of truth includes meaningful CDK customization.",
+        "Keep higher-level architecture docs in sync whenever backend assembly patterns change."
+      ],
+      "tags": ["aws", "cdk", "infrastructure", "step-functions", "iam"]
+    },
+    {
+      "id": "aws-ses-email-receiving",
+      "name": "AWS SES Email Receiving",
+      "scope_note": "Collect the SES email receiving, S3 delivery, permission, and receipt-rule docs that matter for inbound mail workflows.",
+      "allowed_domains": ["docs.aws.amazon.com"],
+      "allow_prefixes": [
+        "https://docs.aws.amazon.com/ses/latest/",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://docs.aws.amazon.com/ses/latest/DeveloperGuide/receiving-email-managing-receipt-rules.html",
+        "https://docs.aws.amazon.com/ses/latest/dg/receiving-email-action-s3.html",
+        "https://docs.aws.amazon.com/ses/latest/dg/receiving-email-permissions.html",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-rule.html",
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ses-receiptrule-s3action.html"
+      ],
+      "max_depth": 2,
+      "max_pages": 20,
+      "cloudraven_focus": "Use this material when the repo manages inbound email receiving with SES, S3 delivery, rule activation, and workflow triggers.",
+      "cloudraven_examples": [
+        "Route workspace-agent public aliases through SES receipt rules into an S3-backed inbound workflow.",
+        "Troubleshoot receipt-rule deployment failures where SES validates S3 delivery permissions before the full stack is stable."
+      ],
+      "applicability_review": [
+        "High fit because workspace-agent ingress depends on SES receipt rules and S3 delivery, not just mailbox polling.",
+        "Review permission shape, region support, and deployment ordering before treating SES receiving as routine infrastructure."
+      ],
+      "tags": ["aws", "ses", "email-receiving", "s3", "cloudformation", "inbound-email"]
+    },
+    {
       "id": "openai-api",
       "name": "OpenAI API",
       "scope_note": "Collect API docs and guides only.",
@@ -224,6 +335,33 @@
       "tags": ["media", "photos", "stock-assets"]
     },
     {
+      "id": "hubspot-developer-platform",
+      "name": "HubSpot Developer Platform",
+      "scope_note": "Collect OAuth and transactional email guidance relevant to the repo's mailbox and delivery workflows.",
+      "allowed_domains": ["developers.hubspot.com"],
+      "allow_prefixes": [
+        "https://developers.hubspot.com/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth",
+        "https://developers.hubspot.com/docs/api-reference/marketing-transactional-single-send-v3/guide",
+        "https://developers.hubspot.com/docs/api-reference/communication-preferences-subscriptions-v3/guide"
+      ],
+      "max_depth": 2,
+      "max_pages": 50,
+      "cloudraven_focus": "Use this material for HubSpot mailbox connection, delivery staging, and transactional outbound workflows.",
+      "cloudraven_examples": [
+        "Connect a workspace mailbox owner to HubSpot and stage approved drafts into a transactional send flow.",
+        "Keep provider-specific delivery requirements aligned with workspace approval and audit events."
+      ],
+      "applicability_review": [
+        "High fit because the repo already includes HubSpot OAuth and outbound delivery handlers.",
+        "Review portal ownership, token lifecycle, and provider-specific send limits before expanding usage."
+      ],
+      "tags": ["hubspot", "oauth", "transactional-email", "crm", "delivery"]
+    },
+    {
       "id": "tailwind-css",
       "name": "Tailwind CSS",
       "scope_note": "Collect the Next.js setup path and core utility styling guidance.",
@@ -250,6 +388,31 @@
       "tags": ["tailwind", "styling", "frontend"]
     },
     {
+      "id": "iconify-react",
+      "name": "Iconify React",
+      "scope_note": "Collect the React component usage guidance for the icon layer used across the app UI.",
+      "allowed_domains": ["iconify.design"],
+      "allow_prefixes": [
+        "https://iconify.design/docs/icon-components/react/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://iconify.design/docs/icon-components/react/"
+      ],
+      "max_depth": 2,
+      "max_pages": 20,
+      "cloudraven_focus": "Use this material when the repo needs consistent icon composition across marketing and workspace interfaces.",
+      "cloudraven_examples": [
+        "Keep section navigation, status indicators, and callout blocks visually consistent without introducing a second icon package.",
+        "Choose icon loading patterns that avoid unnecessary payload growth on dense UI surfaces."
+      ],
+      "applicability_review": [
+        "High fit because Iconify is used widely across the app shell and public site.",
+        "Review icon selection and bundle footprint when expanding UI-heavy surfaces."
+      ],
+      "tags": ["icons", "react", "design-system"]
+    },
+    {
       "id": "maplibre-gl-js",
       "name": "MapLibre GL JS",
       "scope_note": "Collect API entry points and examples for interactive map work.",
@@ -274,6 +437,32 @@
         "Choose tile, geocoding, and style providers deliberately."
       ],
       "tags": ["maps", "geospatial", "maplibre"]
+    },
+    {
+      "id": "react-map-gl",
+      "name": "react-map-gl",
+      "scope_note": "Collect the React wrapper guidance used to host map surfaces in the app.",
+      "allowed_domains": ["visgl.github.io"],
+      "allow_prefixes": [
+        "https://visgl.github.io/react-map-gl/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://visgl.github.io/react-map-gl/docs",
+        "https://visgl.github.io/react-map-gl/docs/api-reference/maplibre/map"
+      ],
+      "max_depth": 2,
+      "max_pages": 40,
+      "cloudraven_focus": "Use this material when React panels need a controlled map wrapper over the MapLibre runtime.",
+      "cloudraven_examples": [
+        "Embed project geospatial context inside workspace cards without hand-rolling a raw map lifecycle wrapper.",
+        "Coordinate map state with React panel state while keeping the underlying map stack portable."
+      ],
+      "applicability_review": [
+        "High fit where map interaction lives inside React-driven workspace panels.",
+        "Check controlled-state and event-binding patterns before adding more complex geospatial UI."
+      ],
+      "tags": ["react", "maps", "maplibre", "geospatial"]
     },
     {
       "id": "apache-echarts",
@@ -327,6 +516,60 @@
         "Reserve it for tasks that genuinely benefit from 3D."
       ],
       "tags": ["3d", "threejs", "interactive-visuals"]
+    },
+    {
+      "id": "pptxgenjs",
+      "name": "PptxGenJS",
+      "scope_note": "Collect the official presentation-generation documentation for deck automation workflows.",
+      "allowed_domains": ["gitbrent.github.io"],
+      "allow_prefixes": [
+        "https://gitbrent.github.io/PptxGenJS/docs/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://gitbrent.github.io/PptxGenJS/docs/introduction/",
+        "https://gitbrent.github.io/PptxGenJS/docs/api-text/",
+        "https://gitbrent.github.io/PptxGenJS/docs/api-images/"
+      ],
+      "max_depth": 2,
+      "max_pages": 40,
+      "cloudraven_focus": "Use this material for editable slide, print, and artifact generation from repo-local source data.",
+      "cloudraven_examples": [
+        "Generate sales, sprint, or case-study decks from structured content and reusable layout helpers.",
+        "Keep artifact-as-code workflows editable instead of exporting flattened images too early."
+      ],
+      "applicability_review": [
+        "High fit because the repo already contains active deck-generation workflows under `docs/slides/`.",
+        "Treat typography, image sizing, and text-layout helpers as part of the system contract, not incidental implementation details."
+      ],
+      "tags": ["slides", "pptx", "automation", "artifacts-as-code"]
+    },
+    {
+      "id": "sharp-image-processing",
+      "name": "Sharp Image Processing",
+      "scope_note": "Collect the official image-processing guidance relevant to printable and campaign-artifact generation.",
+      "allowed_domains": ["sharp.pixelplumbing.com"],
+      "allow_prefixes": [
+        "https://sharp.pixelplumbing.com/"
+      ],
+      "deny_regexes": [],
+      "seed_urls": [
+        "https://sharp.pixelplumbing.com/",
+        "https://sharp.pixelplumbing.com/api-output/",
+        "https://sharp.pixelplumbing.com/api-composite/"
+      ],
+      "max_depth": 2,
+      "max_pages": 40,
+      "cloudraven_focus": "Use this material when repo-generated print or marketing artifacts need deterministic image composition.",
+      "cloudraven_examples": [
+        "Compose branded print assets from artwork, text layers, and generated QR codes.",
+        "Resize or export campaign assets into multiple formats without leaving the repo workflow."
+      ],
+      "applicability_review": [
+        "Good fit for deterministic artifact generation that should stay scriptable and local.",
+        "Validate color, density, and export settings when outputs are meant for print or client-facing collateral."
+      ],
+      "tags": ["images", "print", "automation", "asset-pipeline"]
     },
     {
       "id": "stripe-and-eventbridge",

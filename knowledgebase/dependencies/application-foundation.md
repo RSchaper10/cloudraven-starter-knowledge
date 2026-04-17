@@ -67,6 +67,10 @@ Suggested tags:
 - `react`
 - `design-system`
 
+Migration example:
+
+- `knowledgebase/dependencies/heroui-to-shadcn-migration-example.md`
+
 ## shadcn/ui
 
 Role:
@@ -98,6 +102,10 @@ Suggested tags:
 - `tailwind`
 - `design-system`
 - `open-code`
+
+Migration example:
+
+- `knowledgebase/dependencies/heroui-to-shadcn-migration-example.md`
 
 ## Tailwind CSS
 
